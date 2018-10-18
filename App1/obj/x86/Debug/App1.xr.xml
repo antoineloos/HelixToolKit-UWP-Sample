@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="OITWeightDepthSlope" />
+    <RootPropertyPathName Name="OITWeightPower" />
+    <RootPropertyPathName Name="OITVM" />
+    <RootPropertyPathName Name="OITWeights" />
+    <RootPropertyPathName Name="OITWeightMode" />
+    <RootPropertyPathName Name="RenderDetailOutput" />
+    <RootPropertyPathName Name="Camera1" />
+    <RootPropertyPathName Name="UpDirection" />
+    <RootPropertyPathName Name="Camera" />
+    <RootPropertyPathName Name="LookDirection" />
+    <RootPropertyPathName Name="GridModel" />
+    <RootPropertyPathName Name="GridTransform" />
+    <RootPropertyPathName Name="Acceleration" />
+    <RootPropertyPathName Name="BlendColor" />
+    <RootPropertyPathName Name="ConsumerLocation" />
+    <RootPropertyPathName Name="ConsumerRadius" />
+    <RootPropertyPathName Name="ParticleVM" />
+    <RootPropertyPathName Name="DestAlphaBlendOption" />
+    <RootPropertyPathName Name="DestBlendOption" />
+    <RootPropertyPathName Name="EmitterLocation" />
+    <RootPropertyPathName Name="EmitterRadius" />
+    <RootPropertyPathName Name="Instances" />
+    <RootPropertyPathName Name="NumTextureColumns" />
+    <RootPropertyPathName Name="NumTextureRows" />
+    <RootPropertyPathName Name="ParticleBounds" />
+    <RootPropertyPathName Name="ParticleSize" />
+    <RootPropertyPathName Name="ParticleTexture" />
+    <RootPropertyPathName Name="SourceAlphaBlendOption" />
+    <RootPropertyPathName Name="SourceBlendOption" />
+    <RootPropertyPathName Name="FloorModel" />
+    <RootPropertyPathName Name="FloorMaterial" />
+    <RootPropertyPathName Name="Transform4" />
+    <RootPropertyPathName Name="PointGeometry" />
+    <RootPropertyPathName Name="Transform" />
+    <RootPropertyPathName Name="Geometry" />
+    <RootPropertyPathName Name="Material" />
+    <RootPropertyPathName Name="Transform3" />
+    <RootPropertyPathName Name="Transform2" />
+    <RootPropertyPathName Name="Transform1" />
+    <RootPropertyPathName Name="AxisLabelGeometry" />
+    <RootPropertyPathName Name="LineGeometry" />
+    <RootPropertyPathName Name="Sphere" />
+    <RootPropertyPathName Name="Material1" />
+    <RootPropertyPathName Name="EnvironmentMap" />
+    <RootPropertyPathName Name="DirectionalLightDirection" />
+    <RootPropertyPathName Name="EffectsManager" />
+    <RootPropertyPathName Name="ModelGeometry" />
+    <RootPropertyPathName Name="Model" />
+    <RootPropertyPathName Name="IsTransparent" />
+    <RootPropertyPathName Name="ShowWireframe" />
+    <RootPropertyPathName Name="UpDirZCommand" />
+    <RootPropertyPathName Name="UpDirYCommand" />
+    <RootPropertyPathName Name="UpDirXCommand" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="CacheMode" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.ModelContainer3DX">
+      <RootProperty Name="EffectsManager" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.Viewport3DX">
+      <RootProperty Name="Background" />
+      <RootProperty Name="BackgroundColor" />
+      <RootProperty Name="Camera" />
+      <RootProperty Name="EnableAutoOctreeUpdate" />
+      <RootProperty Name="EnableDeferredRendering" />
+      <RootProperty Name="EnableDesignModeRendering" />
+      <RootProperty Name="EnableSharedModelMode" />
+      <RootProperty Name="FXAALevel" />
+      <RootProperty Name="IsShadowMappingEnabled" />
+      <RootProperty Name="ModelUpDirection" />
+      <RootProperty Name="SharedModelContainer" />
+      <RootProperty Name="ShowCoordinateSystem" />
+      <RootProperty Name="ShowFrameDetails" />
+      <RootProperty Name="ShowFrameRate" />
+      <RootProperty Name="Items" />
+      <RootProperty Name="CameraMode" />
+      <RootProperty Name="CameraRotationMode" />
+      <RootProperty Name="IsPanEnabled" />
+      <RootEvent Name="OnMouse3DDown" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontStretch" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="CacheMode" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Inlines" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.BitmapCache" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Slider">
+      <RootProperty Name="LargeChange" />
+      <RootProperty Name="Maximum" />
+      <RootProperty Name="Minimum" />
+      <RootProperty Name="SmallChange" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.DirectionalLight3D">
+      <RootProperty Name="Direction" />
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.AxisPlaneGridModel3D">
+      <RootProperty Name="PlaneColor" />
+      <RootProperty Name="UpAxis" />
+      <RootProperty Name="Offset" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.PostEffectMeshBorderHighlight">
+      <RootProperty Name="EffectName" />
+      <RootProperty Name="NumberOfBlurPass" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.ShadowMap3D" />
+    <RootType FullName="HelixToolkit.UWP.EnvironmentMap3D">
+      <RootProperty Name="Texture" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.GroupModel3D">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Transform3D" />
+      <RootProperty Name="OctreeManager" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.MeshGeometryModel3D">
+      <RootProperty Name="CullMode" />
+      <RootProperty Name="Geometry" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Material" />
+      <RootProperty Name="IsThrowingShadow" />
+      <RootProperty Name="Transform3D" />
+      <RootProperty Name="DepthBias" />
+      <RootProperty Name="IsTransparent" />
+      <RootProperty Name="RenderWireframe" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.ParticleStormModel3D">
+      <RootProperty Name="Acceleration" />
+      <RootProperty Name="AnimateSpriteByEnergy" />
+      <RootProperty Name="BlendColor" />
+      <RootProperty Name="ConsumerLocation" />
+      <RootProperty Name="ConsumerRadius" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="DestAlphaBlend" />
+      <RootProperty Name="DestBlend" />
+      <RootProperty Name="EmitterLocation" />
+      <RootProperty Name="EmitterRadius" />
+      <RootProperty Name="EnergyDissipationRate" />
+      <RootProperty Name="InitialEnergy" />
+      <RootProperty Name="Instances" />
+      <RootProperty Name="NumTextureColumn" />
+      <RootProperty Name="NumTextureRow" />
+      <RootProperty Name="ParticleBounds" />
+      <RootProperty Name="ParticleCount" />
+      <RootProperty Name="ParticleSize" />
+      <RootProperty Name="ParticleTexture" />
+      <RootProperty Name="SourceAlphaBlend" />
+      <RootProperty Name="SourceBlend" />
+      <RootProperty Name="Turbulance" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.LineGeometryModel3D">
+      <RootProperty Name="Geometry" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Thickness" />
+      <RootProperty Name="Transform3D" />
+      <RootProperty Name="Color" />
+      <RootProperty Name="IsThrowingShadow" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.PointGeometryModel3D">
+      <RootProperty Name="Geometry" />
+      <RootProperty Name="IsThrowingShadow" />
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.GeometryModel3DOctreeManager" />
+    <RootType FullName="HelixToolkit.UWP.DynamicReflectionMap3D">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.BillboardTextModel3D">
+      <RootProperty Name="Geometry" />
+      <RootProperty Name="IsTransparent" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.ItemsModel3D">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Transform3D" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="OctreeManager" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Flyout" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Flyout">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyout">
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutItem">
+      <RootProperty Name="Command" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="App1.MainPage" />
+  </Roots.RootTypes>
+</Roots>

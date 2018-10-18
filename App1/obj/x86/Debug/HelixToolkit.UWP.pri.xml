@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="HelixToolkit.UWP" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="HelixToolkit.UWP">
+				<NamedResource name="HelixToolkit.UWP.xr.xml" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/HelixToolkit.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>HelixToolkit.UWP\HelixToolkit.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Resources">
+					<NamedResource name="arial.dds" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/arial.dds">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\arial.dds</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="arial.fnt" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/arial.fnt">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\arial.fnt</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="csParticleInsert.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/csParticleInsert.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\csParticleInsert.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="csParticleUpdate.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/csParticleUpdate.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\csParticleUpdate.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="dsMeshTriTessellation.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/dsMeshTriTessellation.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\dsMeshTriTessellation.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="gsBillboard.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/gsBillboard.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\gsBillboard.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="gsLine.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/gsLine.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\gsLine.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="gsMeshNormalVector.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/gsMeshNormalVector.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\gsMeshNormalVector.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="gsMeshSkinnedOut.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/gsMeshSkinnedOut.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\gsMeshSkinnedOut.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="gsParticle.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/gsParticle.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\gsParticle.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="gsPoint.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/gsPoint.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\gsPoint.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="hsMeshTriTessellation.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/hsMeshTriTessellation.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\hsMeshTriTessellation.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psBillboardText.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psBillboardText.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psBillboardText.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psBillboardTextOIT.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psBillboardTextOIT.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psBillboardTextOIT.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psColor.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psColor.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psColor.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psDepthStencilOnly.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psDepthStencilOnly.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psDepthStencilOnly.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psDiffuseMap.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psDiffuseMap.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psDiffuseMap.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectBloomBlurHorizontal.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectBloomBlurHorizontal.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectBloomBlurHorizontal.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectBloomBlurVertical.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectBloomBlurVertical.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectBloomBlurVertical.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectBloomCombine.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectBloomCombine.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectBloomCombine.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectBloomExtract.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectBloomExtract.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectBloomExtract.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectGaussianBlurHorizontal.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectGaussianBlurHorizontal.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectGaussianBlurHorizontal.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectGaussianBlurVertical.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectGaussianBlurVertical.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectGaussianBlurVertical.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectMeshBorderHighlight.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectMeshBorderHighlight.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectMeshBorderHighlight.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectMeshDiffuseXRayGrid.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectMeshDiffuseXRayGrid.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectMeshDiffuseXRayGrid.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectMeshXRay.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectMeshXRay.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectMeshXRay.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectMeshXRayGrid.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectMeshXRayGrid.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectMeshXRayGrid.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectOutlineQuad.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectOutlineQuad.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectOutlineQuad.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectOutlineQuadStencil.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectOutlineQuadStencil.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectOutlineQuadStencil.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psEffectOutlineQualFinal.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psEffectOutlineQualFinal.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psEffectOutlineQualFinal.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psFXAA.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psFXAA.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psFXAA.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psLine.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psLine.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psLine.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psLineColor.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psLineColor.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psLineColor.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psLUMA.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psLUMA.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psLUMA.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psMeshBlinnPhong.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psMeshBlinnPhong.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psMeshBlinnPhong.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psMeshBlinnPhongOIT.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psMeshBlinnPhongOIT.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psMeshBlinnPhongOIT.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psMeshBlinnPhongOITQuad.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psMeshBlinnPhongOITQuad.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psMeshBlinnPhongOITQuad.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psMeshClipPlaneBackface.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psMeshClipPlaneBackface.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psMeshClipPlaneBackface.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psMeshClipPlaneQuad.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psMeshClipPlaneQuad.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psMeshClipPlaneQuad.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psMeshColorStripe.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psMeshColorStripe.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psMeshColorStripe.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psMeshDiffuseMapOIT.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psMeshDiffuseMapOIT.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psMeshDiffuseMapOIT.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psMeshXRay.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psMeshXRay.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psMeshXRay.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psNormals.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psNormals.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psNormals.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psParticle.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psParticle.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psParticle.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psParticleOIT.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psParticleOIT.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psParticleOIT.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psPlaneGrid.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psPlaneGrid.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psPlaneGrid.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psPoint.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psPoint.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psPoint.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psPositions.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psPositions.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psPositions.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psScreenDup.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psScreenDup.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psScreenDup.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psShadow.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psShadow.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psShadow.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psSkybox.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psSkybox.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psSkybox.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psViewCube.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psViewCube.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psViewCube.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psWireframe.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psWireframe.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psWireframe.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psWireframeOIT.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/psWireframeOIT.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\psWireframeOIT.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsBillboard.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsBillboard.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsBillboard.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsBillboardInstancing.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsBillboardInstancing.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsBillboardInstancing.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsBoneSkinningBasic.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsBoneSkinningBasic.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsBoneSkinningBasic.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsCubeMap.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsCubeMap.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsCubeMap.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshBatched.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshBatched.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshBatched.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshBatchedShadow.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshBatchedShadow.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshBatchedShadow.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshBatchedWireframe.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshBatchedWireframe.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshBatchedWireframe.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshClipPlane.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshClipPlane.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshClipPlane.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshClipPlaneQuad.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshClipPlaneQuad.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshClipPlaneQuad.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshDefault.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshDefault.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshDefault.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshInstancing.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshInstancing.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshInstancing.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshInstancingTessellation.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshInstancingTessellation.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshInstancingTessellation.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshOutlinePass1.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshOutlinePass1.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshOutlinePass1.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshOutlineScreenQuad.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshOutlineScreenQuad.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshOutlineScreenQuad.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshShadow.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshShadow.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshShadow.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshTessellation.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshTessellation.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshTessellation.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsMeshWireframe.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsMeshWireframe.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsMeshWireframe.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsParticle.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsParticle.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsParticle.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsPlaneGrid.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsPlaneGrid.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsPlaneGrid.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsPoint.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsPoint.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsPoint.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsPointShadow.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsPointShadow.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsPointShadow.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsScreenDup.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsScreenDup.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsScreenDup.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsScreenDupCursor.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsScreenDupCursor.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsScreenDupCursor.cso</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="vsSkybox.cso" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Resources/vsSkybox.cso">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Resources\vsSkybox.cso</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://HelixToolkit.UWP/Files/HelixToolkit.UWP/Themes/Generic.xbf">
+						<Candidate type="Path">
+							<Value>HelixToolkit.UWP\Themes\Generic.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

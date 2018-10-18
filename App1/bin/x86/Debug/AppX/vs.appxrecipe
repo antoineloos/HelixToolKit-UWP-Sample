@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PORTA69-20</Machine>
+    <WindowsUser>aloos</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>1d557c66-3b88-48b7-916b-fdc7f47b031d</PackageIdentityName>
+    <PackageIdentityPublisher>CN=aloos</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\aloos\source\repos\App1\App1\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C7F92B5EDA3532390CAAA4A7878528ACFF1E45BF4249F597AC5FD86DB52E7491</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1d557c66-3b88-48b7-916b-fdc7f47b031d_1.0.0.0_x86__pa9d0p6cevq9y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1d557c66-3b88-48b7-916b-fdc7f47b031d_pa9d0p6cevq9y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1d557c66-3b88-48b7-916b-fdc7f47b031d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=aloos</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-18T11:57:12.566</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\App1.exe">
+      <PackagePath>entrypoint\App1.exe</PackagePath>
+      <Modified>2018-10-18T11:57:11.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\commonservicelocator\2.0.2\lib\netstandard1.0\CommonServiceLocator.dll">
+      <PackagePath>CommonServiceLocator.dll</PackagePath>
+      <Modified>2018-01-03T11:27:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\cyotek.drawing.bitmapfont\1.3.4\lib\netstandard1.3\Cyotek.Drawing.BitmapFont.dll">
+      <PackagePath>Cyotek.Drawing.BitmapFont.dll</PackagePath>
+      <Modified>2017-11-15T18:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit\2.4.0\lib\netstandard1.1\HelixToolkit.dll">
+      <PackagePath>HelixToolkit.dll</PackagePath>
+      <Modified>2018-08-26T18:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP.dll">
+      <PackagePath>HelixToolkit.UWP.dll</PackagePath>
+      <Modified>2018-08-26T18:08:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2016-06-11T21:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2016-07-01T16:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2016-06-11T21:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\mvvmlightlibs\5.4.1.1\lib\uap10.0\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+      <Modified>2018-02-04T22:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\mvvmlightlibs\5.4.1.1\lib\uap10.0\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+      <Modified>2018-02-04T22:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\mvvmlightlibs\5.4.1.1\lib\uap10.0\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+      <Modified>2018-02-04T22:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.collections\4.3.0\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2016-11-05T03:55:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.diagnostics.tools\4.3.0\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2016-11-05T03:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.diagnostics.tracing\4.3.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2016-11-05T03:55:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.globalization\4.3.0\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2016-11-05T03:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.globalization.calendars\4.3.0\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2016-11-05T03:55:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.io\4.3.0\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2016-11-05T03:56:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.reflection\4.3.0\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2016-11-05T03:56:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.reflection.extensions\4.3.0\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2016-11-05T03:56:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.reflection.primitives\4.3.0\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T03:56:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.resources.resourcemanager\4.3.0\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2016-11-05T03:56:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.runtime\4.3.0\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2016-11-05T03:57:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.runtime.handles\4.3.0\lib\netstandard1.3\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2016-11-05T03:56:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.runtime.interopservices\4.3.0\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2016-11-05T03:56:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.text.encoding\4.3.0\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2016-11-05T03:57:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.text.encoding.extensions\4.3.0\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2016-11-05T03:57:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.threading.tasks\4.3.0\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2016-11-05T03:57:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.any.system.threading.timer\4.3.0\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2016-11-05T03:57:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.win.microsoft.win32.primitives\4.3.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T03:55:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.win.system.console\4.3.0\runtimes\win\lib\netcore50\System.Console.dll">
+      <PackagePath>System.Console.dll</PackagePath>
+      <Modified>2016-11-05T03:55:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.win.system.diagnostics.debug\4.3.0\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2016-11-05T03:55:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.win.system.io.filesystem\4.3.0\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2016-11-05T03:56:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.win.system.net.primitives\4.3.0\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T03:56:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.win.system.net.sockets\4.3.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2016-11-05T03:56:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.win.system.runtime.extensions\4.3.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2016-11-05T03:56:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win7-x86.microsoft.netcore.jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2016-06-13T16:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.3.0\runtimes\win7-x86\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-11-05T03:34:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\runtime.win7.system.private.uri\4.3.0\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2016-11-05T03:56:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\sharpdx\4.2.0\lib\uap10.0\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+      <Modified>2018-08-24T03:58:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\sharpdx.d3dcompiler\4.1.0\lib\uap10.0\SharpDX.D3DCompiler.dll">
+      <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
+      <Modified>2018-06-01T07:11:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\sharpdx.direct2d1\4.1.0\lib\uap10.0\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+      <Modified>2018-06-01T07:12:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\sharpdx.direct3d11\4.1.0\lib\uap10.0\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+      <Modified>2018-06-01T07:12:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\sharpdx.dxgi\4.1.0\lib\uap10.0\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+      <Modified>2018-06-01T07:12:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\sharpdx.mathematics\4.1.0\lib\uap10.0\SharpDX.Mathematics.dll">
+      <PackagePath>SharpDX.Mathematics.dll</PackagePath>
+      <Modified>2018-06-01T07:12:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.appcontext\4.3.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2016-11-05T03:55:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.buffers\4.3.0\lib\netstandard1.1\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
+      <Modified>2016-11-05T03:55:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.collections.concurrent\4.3.0\lib\netcore50\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2016-11-05T03:55:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2016-06-11T21:13:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2016-06-11T21:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2016-06-11T21:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.componentmodel\4.3.0\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2016-11-05T03:55:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2016-06-11T21:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2016-06-11T21:13:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.componentmodel.primitives\4.3.0\lib\netstandard1.0\System.ComponentModel.Primitives.dll">
+      <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T03:55:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.componentmodel.typeconverter\4.3.0\lib\netstandard1.0\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
+      <Modified>2016-11-05T03:55:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2016-06-11T21:13:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.diagnostics.contracts\4.3.0\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2016-11-05T03:55:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.diagnostics.diagnosticsource\4.3.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2016-11-05T03:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2016-07-01T13:48:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.drawing.primitives\4.3.0\lib\netstandard1.1\System.Drawing.Primitives.dll">
+      <PackagePath>System.Drawing.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T03:56:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2016-06-11T21:13:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T21:13:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.io.compression\4.3.0\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2016-11-05T03:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.io.compression.zipfile\4.3.0\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2016-11-05T03:56:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.io.filesystem.primitives\4.3.0\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T03:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2016-06-11T21:13:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2016-06-11T21:13:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.linq\4.3.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2016-11-05T03:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.linq.expressions\4.3.0\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2016-11-05T03:56:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T21:13:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2016-06-11T21:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.net.http\4.3.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2016-11-05T03:56:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2016-06-11T21:13:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.net.nameresolution\4.3.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+      <Modified>2016-11-05T03:56:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2016-06-11T21:14:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2016-06-11T21:14:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2016-06-11T21:14:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+      <PackagePath>System.Net.WebSockets.dll</PackagePath>
+      <Modified>2016-06-11T21:14:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.websockets.client\4.0.2\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
+      <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
+      <Modified>2017-11-20T13:34:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2016-06-11T21:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T21:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.objectmodel\4.3.0\lib\netcore50\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2016-11-05T03:56:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.private.datacontractserialization\4.3.0\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2016-11-05T03:56:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.private.servicemodel\4.1.3\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2018-07-19T13:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2016-06-11T21:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2016-06-11T21:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.reflection.emit\4.3.0\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2016-11-05T03:56:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.reflection.emit.ilgeneration\4.3.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2016-11-05T03:56:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.reflection.emit.lightweight\4.3.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2016-11-05T03:56:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2016-06-11T21:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.reflection.typeextensions\4.3.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2016-11-05T03:56:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.runtime.interopservices.runtimeinformation\4.3.0\runtimes\win\lib\netcore50\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+      <Modified>2016-11-05T03:57:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T21:14:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.runtime.numerics\4.3.0\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2016-11-05T03:57:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2017-02-09T12:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.runtime.serialization.primitives\4.3.0\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T03:57:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2017-02-09T12:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.runtime.windowsruntime\4.3.0\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-11-05T03:57:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2016-06-11T21:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2016-06-11T21:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.security.cryptography.algorithms\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+      <Modified>2016-11-05T03:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.security.cryptography.cng\4.3.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+      <Modified>2016-11-05T03:57:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.security.cryptography.encoding\4.3.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+      <Modified>2016-11-05T03:57:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.security.cryptography.primitives\4.3.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T03:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.security.cryptography.x509certificates\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+      <Modified>2016-11-05T03:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2016-06-11T21:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.duplex\4.0.4\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2018-07-19T15:47:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.http\4.1.3\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2018-07-19T15:47:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.nettcp\4.1.3\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2018-07-19T15:47:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.primitives\4.1.3\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2018-07-19T15:47:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.security\4.0.4\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2018-07-19T15:47:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2016-06-11T21:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.text.regularexpressions\4.3.0\lib\netcore50\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2016-11-05T03:57:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.threading\4.3.0\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2016-11-05T03:57:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.threading.overlapped\4.3.0\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2016-11-05T03:57:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2016-06-11T21:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.threading.tasks.extensions\4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+      <Modified>2016-11-05T03:57:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T21:14:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.xml.readerwriter\4.3.0\lib\netcore50\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2016-11-05T03:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.xml.xdocument\4.3.0\lib\netcore50\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2016-11-05T03:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.xml.xmldocument\4.3.0\lib\netstandard1.3\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2016-11-05T03:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\system.xml.xmlserializer\4.3.0\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2016-11-05T03:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\solarsail.3ds">
+      <PackagePath>solarsail.3ds</PackagePath>
+      <Modified>2018-10-18T11:40:30.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\FXT_Sparks_01_Atlas_d.png">
+      <PackagePath>FXT_Sparks_01_Atlas_d.png</PackagePath>
+      <Modified>2018-10-18T11:38:55.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-10-18T07:11:04.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-18T07:11:04.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-18T07:11:04.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-18T07:11:04.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-18T07:11:04.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-18T07:11:04.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-18T07:11:04.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-10-18T11:07:30.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\Cubemap_Grandcanyon.dds">
+      <PackagePath>Cubemap_Grandcanyon.dds</PackagePath>
+      <Modified>2018-10-18T11:52:32.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\TextureCheckerboard2.jpg">
+      <PackagePath>TextureCheckerboard2.jpg</PackagePath>
+      <Modified>2018-10-18T11:38:55.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\App1.xr.xml">
+      <PackagePath>App1.xr.xml</PackagePath>
+      <Modified>2018-10-18T11:49:22.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2018-10-18T11:57:11.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2018-10-18T11:57:11.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-04-19T20:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\HelixToolkit.UWP.xr.xml">
+      <PackagePath>HelixToolkit.UWP\HelixToolkit.UWP.xr.xml</PackagePath>
+      <Modified>2018-08-26T18:08:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\arial.dds">
+      <PackagePath>HelixToolkit.UWP\Resources\arial.dds</PackagePath>
+      <Modified>2018-08-26T18:05:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\arial.fnt">
+      <PackagePath>HelixToolkit.UWP\Resources\arial.fnt</PackagePath>
+      <Modified>2018-08-26T18:05:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\csParticleInsert.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\csParticleInsert.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\csParticleUpdate.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\csParticleUpdate.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\dsMeshTriTessellation.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\dsMeshTriTessellation.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\gsBillboard.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\gsBillboard.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\gsLine.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\gsLine.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\gsMeshNormalVector.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\gsMeshNormalVector.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\gsMeshSkinnedOut.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\gsMeshSkinnedOut.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\gsParticle.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\gsParticle.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\gsPoint.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\gsPoint.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\hsMeshTriTessellation.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\hsMeshTriTessellation.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psBillboardText.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psBillboardText.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psBillboardTextOIT.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psBillboardTextOIT.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psColor.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psColor.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psDepthStencilOnly.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psDepthStencilOnly.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psDiffuseMap.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psDiffuseMap.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectBloomBlurHorizontal.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectBloomBlurHorizontal.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectBloomBlurVertical.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectBloomBlurVertical.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectBloomCombine.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectBloomCombine.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectBloomExtract.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectBloomExtract.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectGaussianBlurHorizontal.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectGaussianBlurHorizontal.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectGaussianBlurVertical.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectGaussianBlurVertical.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectMeshBorderHighlight.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectMeshBorderHighlight.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectMeshDiffuseXRayGrid.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectMeshDiffuseXRayGrid.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectMeshXRay.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectMeshXRay.cso</PackagePath>
+      <Modified>2018-08-26T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectMeshXRayGrid.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectMeshXRayGrid.cso</PackagePath>
+      <Modified>2018-08-26T18:06:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectOutlineQuad.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectOutlineQuad.cso</PackagePath>
+      <Modified>2018-08-26T18:06:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectOutlineQuadStencil.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectOutlineQuadStencil.cso</PackagePath>
+      <Modified>2018-08-26T18:06:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psEffectOutlineQualFinal.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psEffectOutlineQualFinal.cso</PackagePath>
+      <Modified>2018-08-26T18:06:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psFXAA.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psFXAA.cso</PackagePath>
+      <Modified>2018-08-26T18:06:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psLine.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psLine.cso</PackagePath>
+      <Modified>2018-08-26T18:06:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psLineColor.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psLineColor.cso</PackagePath>
+      <Modified>2018-08-26T18:06:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psLUMA.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psLUMA.cso</PackagePath>
+      <Modified>2018-08-26T18:06:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psMeshBlinnPhong.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psMeshBlinnPhong.cso</PackagePath>
+      <Modified>2018-08-26T18:06:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psMeshBlinnPhongOIT.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psMeshBlinnPhongOIT.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psMeshBlinnPhongOITQuad.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psMeshBlinnPhongOITQuad.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psMeshClipPlaneBackface.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psMeshClipPlaneBackface.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psMeshClipPlaneQuad.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psMeshClipPlaneQuad.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psMeshColorStripe.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psMeshColorStripe.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psMeshDiffuseMapOIT.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psMeshDiffuseMapOIT.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psMeshXRay.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psMeshXRay.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psNormals.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psNormals.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psParticle.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psParticle.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psParticleOIT.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psParticleOIT.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psPlaneGrid.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psPlaneGrid.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psPoint.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psPoint.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psPositions.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psPositions.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psScreenDup.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psScreenDup.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psShadow.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psShadow.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psSkybox.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psSkybox.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psViewCube.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psViewCube.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psWireframe.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psWireframe.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\psWireframeOIT.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\psWireframeOIT.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsBillboard.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsBillboard.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsBillboardInstancing.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsBillboardInstancing.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsBoneSkinningBasic.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsBoneSkinningBasic.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsCubeMap.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsCubeMap.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshBatched.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshBatched.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshBatchedShadow.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshBatchedShadow.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshBatchedWireframe.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshBatchedWireframe.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshClipPlane.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshClipPlane.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshClipPlaneQuad.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshClipPlaneQuad.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshDefault.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshDefault.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshInstancing.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshInstancing.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshInstancingTessellation.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshInstancingTessellation.cso</PackagePath>
+      <Modified>2018-08-26T18:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshOutlinePass1.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshOutlinePass1.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshOutlineScreenQuad.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshOutlineScreenQuad.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshShadow.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshShadow.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshTessellation.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshTessellation.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsMeshWireframe.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsMeshWireframe.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsParticle.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsParticle.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsPlaneGrid.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsPlaneGrid.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsPoint.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsPoint.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsPointShadow.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsPointShadow.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsScreenDup.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsScreenDup.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsScreenDupCursor.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsScreenDupCursor.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Resources\vsSkybox.cso">
+      <PackagePath>HelixToolkit.UWP\Resources\vsSkybox.cso</PackagePath>
+      <Modified>2018-08-26T18:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\.nuget\packages\helixtoolkit.uwp\2.4.0\lib\uap10.0\HelixToolkit.UWP\Themes\Generic.xbf">
+      <PackagePath>HelixToolkit.UWP\Themes\Generic.xbf</PackagePath>
+      <Modified>2018-08-26T18:08:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-18T11:53:11.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\Core\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2018-10-18T11:57:12.563</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.26702.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.26702.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.26702.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.26702.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.26702.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.26702.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26726.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26726.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26726.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Text" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary" />
+    <RootType FullName="HelixToolkit.UWP.Converters.BoolToVisibilityConverter" />
+    <RootType FullName="HelixToolkit.UWP.Converters.EmptyStringToVisibilityConverter" />
+    <RootType FullName="HelixToolkit.UWP.Controls.HelixItemsControl">
+      <RootProperty Name="Items" />
+      <RootProperty Name="IsHitTestVisible" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.Viewport3DX" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.PerspectiveCamera" />
+    <RootType FullName="HelixToolkit.UWP.OrthographicCamera" />
+    <RootType FullName="HelixToolkit.UWP.MatrixCamera" />
+    <RootType FullName="HelixToolkit.UWP.PhongMaterial" />
+    <RootType FullName="HelixToolkit.UWP.DiffuseMaterial" />
+    <RootType FullName="HelixToolkit.UWP.NormalMaterial" />
+    <RootType FullName="HelixToolkit.UWP.NormalVectorMaterial" />
+    <RootType FullName="HelixToolkit.UWP.VertColorMaterial" />
+    <RootType FullName="HelixToolkit.UWP.PositionColorMaterial" />
+    <RootType FullName="HelixToolkit.UWP.ColorStripeMaterial" />
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="ManipulationMode" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
+      <RootProperty Name="IsHitTestVisible" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="RelativeSource" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Converter" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="HelixToolkit.UWP.ViewBoxModel3D">
+      <RootProperty Name="EnableEdgeClick" />
+      <RootProperty Name="IsRendering" />
+      <RootProperty Name="ManipulationMode" />
+      <RootProperty Name="RelativeScreenLocationX" />
+      <RootProperty Name="RelativeScreenLocationY" />
+      <RootProperty Name="SizeScale" />
+      <RootProperty Name="UpDirection" />
+      <RootProperty Name="ViewBoxTexture" />
+    </RootType>
+    <RootType FullName="HelixToolkit.UWP.CoordinateSystemModel3D">
+      <RootProperty Name="CoordinateSystemLabelX" />
+      <RootProperty Name="CoordinateSystemLabelY" />
+      <RootProperty Name="CoordinateSystemLabelZ" />
+      <RootProperty Name="IsRendering" />
+      <RootProperty Name="LabelColor" />
+      <RootProperty Name="ManipulationMode" />
+      <RootProperty Name="RelativeScreenLocationX" />
+      <RootProperty Name="RelativeScreenLocationY" />
+      <RootProperty Name="SizeScale" />
+    </RootType>
+  </Roots.RootTypes>
+</Roots>
