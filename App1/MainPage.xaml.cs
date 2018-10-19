@@ -1,8 +1,10 @@
 ﻿using HelixToolkit.UWP;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Numerics;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -51,6 +53,16 @@ namespace App1
                     selectedElement.PostEffects = string.IsNullOrEmpty(selectedElement.PostEffects) ? "border[color:#00FFDE]" : null;
                 }
             }
+        }
+
+        private void Joystick_OnJoystickMoved(object sender, JoystickUserControl.JoystickEventArgs e)
+        {
+            (this.DataContext as MainPageViewModel).MoveCamera.Execute(new SharpDX.Vector2( (float)e.XValue, (float)e.YValue));
+        }
+
+        private void Joystick_OnJoystickMoved_1(object sender, JoystickUserControl.JoystickEventArgs e)
+        {
+            (this.DataContext as MainPageViewModel).RotateCamera.Execute(new SharpDX.Vector2((float)e.XValue, (float)e.YValue));
         }
     }
 }

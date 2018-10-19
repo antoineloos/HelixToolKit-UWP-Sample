@@ -7,6 +7,7 @@
     xmlns:hxModel="using:hxToolkit.UWP.CommonDX"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:j="using:JoystickUserControl"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
    
@@ -15,10 +16,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition />
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
+      
         <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
             <Button
                 Width="100"
@@ -53,7 +51,7 @@
             </Button>
         </StackPanel>
         <hx:ModelContainer3DX x:Name="sharedModel" EffectsManager="{Binding EffectsManager}">
-            <hx:ItemsModel3D ItemsSource="{Binding OITVM.ModelGeometry}" Transform3D="{Binding OITVM.Transform}">
+            <hx:ItemsModel3D ItemsSource="{Binding OITVM.ModelGeometry}" Transform3D="{Binding OITVM.Transform}" HorizontalAlignment="Stretch" Height="186" VerticalAlignment="Stretch" Width="258">
                 <hx:ItemsModel3D.ItemTemplate>
                     <DataTemplate>
                         <hx:MeshGeometryModel3D
@@ -170,33 +168,7 @@
                 Color="#4F4E4E" />
             <hx:PostEffectMeshBorderHighlight EffectName="border" NumberOfBlurPass="2" />
         </hx:Viewport3DX>
-        <hx:Viewport3DX
-            x:Name="viewport1"
-            Grid.Row="1"
-            Grid.Column="1"
-            Background="Black"
-            BackgroundColor="Silver"
-            Camera="{Binding Camera1}"
-            CameraMode="Inspect"
-            CameraRotationMode="Turntable"
-            EnableAutoOctreeUpdate="True"
-            EnableDeferredRendering="True"
-            EnableDesignModeRendering="True"
-            EnableSharedModelMode="True"
-            FXAALevel="Low"
-            IsPanEnabled="False"
-            ModelUpDirection="{Binding UpDirection}"
-            OnMouse3DDown="Viewport3DX_OnMouse3DDown"
-            SharedModelContainer="{Binding ElementName=sharedModel}"
-            ShowCoordinateSystem="true">
-            <hx:DirectionalLight3D Direction="{Binding ElementName=viewport1, Path=Camera.LookDirection}" Color="White" />
-            <!--<hx:AxisPlaneGridModel3D Offset="-20" AutoSpacing="False" PlaneColor="#003E3E3E" GridThickness="0.02"/>-->
-            <hx:AxisPlaneGridModel3D
-                PlaneColor="#FFBDBDBD"
-                UpAxis="Z"
-                Offset="-20" />
-            <hx:PostEffectMeshBorderHighlight EffectName="border" NumberOfBlurPass="2" />
-        </hx:Viewport3DX>
+       
         <TextBlock
             Grid.Row="1"
             HorizontalAlignment="Center"
@@ -217,34 +189,7 @@
             Foreground="Blue"
             IsHitTestVisible="False"
             Text="{Binding ElementName=viewport, Path=RenderDetailOutput}" />
-        <StackPanel
-            Grid.Row="1"
-            Grid.Column="1"
-            Margin="8"
-            HorizontalAlignment="Right"
-            Orientation="Vertical">
-            <StackPanel.CacheMode>
-                <BitmapCache />
-            </StackPanel.CacheMode>
-            <ComboBox ItemsSource="{Binding OITVM.OITWeights}" SelectedItem="{Binding ElementName=viewport1, Path=OITWeightMode, Mode=TwoWay}" />
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Foreground="Black">OIT Weight Power:</TextBlock>
-            </StackPanel>
-            <Slider
-                LargeChange="1"
-                Maximum="5"
-                Minimum="0.5"
-                SmallChange="0.1"
-                Value="{Binding ElementName=viewport1, Path=OITWeightPower, Mode=TwoWay}" />
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Foreground="Black">OIT Weight Slope:</TextBlock>
-            </StackPanel>
-            <Slider
-                LargeChange="1"
-                Maximum="5"
-                Minimum="1"
-                SmallChange="0.5"
-                Value="{Binding ElementName=viewport1, Path=OITWeightDepthSlope, Mode=TwoWay}" />
-        </StackPanel>
+        <j:Joystick HorizontalAlignment="Left" OnJoystickMoved="Joystick_OnJoystickMoved_1" VerticalAlignment="Bottom" Grid.Row="2"/>
+        <j:Joystick HorizontalAlignment="Right" OnJoystickMoved="Joystick_OnJoystickMoved" VerticalAlignment="Bottom" Grid.Row="2"/>
     </Grid>
 </Page>

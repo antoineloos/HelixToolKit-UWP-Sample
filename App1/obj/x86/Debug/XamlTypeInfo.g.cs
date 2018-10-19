@@ -213,7 +213,7 @@ namespace App1.App1_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[126];
+            _typeNameTable = new string[128];
             _typeNameTable[0] = "HelixToolkit.UWP.ModelContainer3DX";
             _typeNameTable[1] = "HelixToolkit.UWP.Controls.HelixItemsControl";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.ItemsControl";
@@ -279,31 +279,31 @@ namespace App1.App1_XamlTypeInfo
             _typeNameTable[62] = "Windows.UI.Xaml.DependencyObject";
             _typeNameTable[63] = "HelixToolkit.UWP.FXAALevel";
             _typeNameTable[64] = "SharpDX.Vector3";
-            _typeNameTable[65] = "HelixToolkit.UWP.CameraMode";
-            _typeNameTable[66] = "HelixToolkit.UWP.CameraRotationMode";
-            _typeNameTable[67] = "HelixToolkit.UWP.Cameras.CameraCore";
-            _typeNameTable[68] = "HelixToolkit.UWP.Model.ObservableObject";
-            _typeNameTable[69] = "System.Collections.Generic.IEnumerable`1<HelixToolkit.UWP.Model.Scene2D.SceneNode2D>";
-            _typeNameTable[70] = "HelixToolkit.UWP.ProjectionCamera";
-            _typeNameTable[71] = "String";
-            _typeNameTable[72] = "Double";
-            _typeNameTable[73] = "System.IO.Stream";
+            _typeNameTable[65] = "HelixToolkit.UWP.Cameras.CameraCore";
+            _typeNameTable[66] = "HelixToolkit.UWP.Model.ObservableObject";
+            _typeNameTable[67] = "System.Collections.Generic.IEnumerable`1<HelixToolkit.UWP.Model.Scene2D.SceneNode2D>";
+            _typeNameTable[68] = "HelixToolkit.UWP.ProjectionCamera";
+            _typeNameTable[69] = "String";
+            _typeNameTable[70] = "Double";
+            _typeNameTable[71] = "System.IO.Stream";
+            _typeNameTable[72] = "HelixToolkit.UWP.CameraMode";
+            _typeNameTable[73] = "HelixToolkit.UWP.CameraRotationMode";
             _typeNameTable[74] = "Windows.UI.Core.CoreCursorType";
             _typeNameTable[75] = "HelixToolkit.UWP.InputController";
             _typeNameTable[76] = "System.Exception";
             _typeNameTable[77] = "HelixToolkit.UWP.OITWeightMode";
-            _typeNameTable[78] = "HelixToolkit.UWP.DirectionalLight3D";
-            _typeNameTable[79] = "HelixToolkit.UWP.Light3D";
-            _typeNameTable[80] = "HelixToolkit.UWP.LightType";
-            _typeNameTable[81] = "HelixToolkit.UWP.AxisPlaneGridModel3D";
-            _typeNameTable[82] = "HelixToolkit.UWP.Axis";
-            _typeNameTable[83] = "HelixToolkit.UWP.GridPattern";
-            _typeNameTable[84] = "HelixToolkit.UWP.PostEffectMeshBorderHighlight";
-            _typeNameTable[85] = "HelixToolkit.UWP.PostEffectMeshOutlineBlur";
-            _typeNameTable[86] = "HelixToolkit.UWP.OutlineMode";
-            _typeNameTable[87] = "HelixToolkit.UWP.ShadowMap3D";
-            _typeNameTable[88] = "Windows.Foundation.Size";
-            _typeNameTable[89] = "HelixToolkit.UWP.IProjectionCameraModel";
+            _typeNameTable[78] = "JoystickUserControl.Joystick";
+            _typeNameTable[79] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[80] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[81] = "Windows.UI.Xaml.Media.DoubleCollection";
+            _typeNameTable[82] = "Windows.UI.Xaml.Media.PenLineCap";
+            _typeNameTable[83] = "JoystickUserControl.Joystick.JoystickTheme";
+            _typeNameTable[84] = "HelixToolkit.UWP.ShadowMap3D";
+            _typeNameTable[85] = "Windows.Foundation.Size";
+            _typeNameTable[86] = "HelixToolkit.UWP.IProjectionCameraModel";
+            _typeNameTable[87] = "HelixToolkit.UWP.DirectionalLight3D";
+            _typeNameTable[88] = "HelixToolkit.UWP.Light3D";
+            _typeNameTable[89] = "HelixToolkit.UWP.LightType";
             _typeNameTable[90] = "HelixToolkit.UWP.EnvironmentMap3D";
             _typeNameTable[91] = "HelixToolkit.UWP.GroupModel3D";
             _typeNameTable[92] = "HelixToolkit.UWP.GroupElement3D";
@@ -323,25 +323,27 @@ namespace App1.App1_XamlTypeInfo
             _typeNameTable[106] = "HelixToolkit.UWP.Utilities.IRandomVector";
             _typeNameTable[107] = "SharpDX.Direct3D11.BlendOperation";
             _typeNameTable[108] = "HelixToolkit.UWP.LineGeometryModel3D";
-            _typeNameTable[109] = "HelixToolkit.UWP.PointGeometryModel3D";
-            _typeNameTable[110] = "HelixToolkit.UWP.PointFigure";
-            _typeNameTable[111] = "HelixToolkit.UWP.GeometryModel3DOctreeManager";
-            _typeNameTable[112] = "HelixToolkit.UWP.OctreeManagerBaseWrapper";
-            _typeNameTable[113] = "Windows.UI.Xaml.FrameworkElement";
-            _typeNameTable[114] = "HelixToolkit.UWP.IOctreeBasic";
-            _typeNameTable[115] = "Single";
-            _typeNameTable[116] = "HelixToolkit.UWP.IOctreeManager";
-            _typeNameTable[117] = "HelixToolkit.UWP.OctreeBuildParameter";
-            _typeNameTable[118] = "HelixToolkit.UWP.DynamicReflectionMap3D";
-            _typeNameTable[119] = "HelixToolkit.UWP.BillboardTextModel3D";
-            _typeNameTable[120] = "SharpDX.Direct3D11.SamplerStateDescription";
-            _typeNameTable[121] = "HelixToolkit.UWP.ItemsModel3D";
-            _typeNameTable[122] = "System.Collections.IEnumerable";
-            _typeNameTable[123] = "App1.MainPage";
-            _typeNameTable[124] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[125] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[109] = "HelixToolkit.UWP.PostEffectMeshBorderHighlight";
+            _typeNameTable[110] = "HelixToolkit.UWP.PostEffectMeshOutlineBlur";
+            _typeNameTable[111] = "HelixToolkit.UWP.OutlineMode";
+            _typeNameTable[112] = "HelixToolkit.UWP.PointGeometryModel3D";
+            _typeNameTable[113] = "HelixToolkit.UWP.PointFigure";
+            _typeNameTable[114] = "HelixToolkit.UWP.GeometryModel3DOctreeManager";
+            _typeNameTable[115] = "HelixToolkit.UWP.OctreeManagerBaseWrapper";
+            _typeNameTable[116] = "Windows.UI.Xaml.FrameworkElement";
+            _typeNameTable[117] = "HelixToolkit.UWP.IOctreeBasic";
+            _typeNameTable[118] = "Single";
+            _typeNameTable[119] = "HelixToolkit.UWP.IOctreeManager";
+            _typeNameTable[120] = "HelixToolkit.UWP.OctreeBuildParameter";
+            _typeNameTable[121] = "HelixToolkit.UWP.DynamicReflectionMap3D";
+            _typeNameTable[122] = "HelixToolkit.UWP.BillboardTextModel3D";
+            _typeNameTable[123] = "SharpDX.Direct3D11.SamplerStateDescription";
+            _typeNameTable[124] = "HelixToolkit.UWP.ItemsModel3D";
+            _typeNameTable[125] = "System.Collections.IEnumerable";
+            _typeNameTable[126] = "App1.MainPage";
+            _typeNameTable[127] = "Windows.UI.Xaml.Controls.Page";
 
-            _typeTable = new global::System.Type[126];
+            _typeTable = new global::System.Type[128];
             _typeTable[0] = typeof(global::HelixToolkit.UWP.ModelContainer3DX);
             _typeTable[1] = typeof(global::HelixToolkit.UWP.Controls.HelixItemsControl);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
@@ -407,31 +409,31 @@ namespace App1.App1_XamlTypeInfo
             _typeTable[62] = typeof(global::Windows.UI.Xaml.DependencyObject);
             _typeTable[63] = typeof(global::HelixToolkit.UWP.FXAALevel);
             _typeTable[64] = typeof(global::SharpDX.Vector3);
-            _typeTable[65] = typeof(global::HelixToolkit.UWP.CameraMode);
-            _typeTable[66] = typeof(global::HelixToolkit.UWP.CameraRotationMode);
-            _typeTable[67] = typeof(global::HelixToolkit.UWP.Cameras.CameraCore);
-            _typeTable[68] = typeof(global::HelixToolkit.UWP.Model.ObservableObject);
-            _typeTable[69] = typeof(global::System.Collections.Generic.IEnumerable<global::HelixToolkit.UWP.Model.Scene2D.SceneNode2D>);
-            _typeTable[70] = typeof(global::HelixToolkit.UWP.ProjectionCamera);
-            _typeTable[71] = typeof(global::System.String);
-            _typeTable[72] = typeof(global::System.Double);
-            _typeTable[73] = typeof(global::System.IO.Stream);
+            _typeTable[65] = typeof(global::HelixToolkit.UWP.Cameras.CameraCore);
+            _typeTable[66] = typeof(global::HelixToolkit.UWP.Model.ObservableObject);
+            _typeTable[67] = typeof(global::System.Collections.Generic.IEnumerable<global::HelixToolkit.UWP.Model.Scene2D.SceneNode2D>);
+            _typeTable[68] = typeof(global::HelixToolkit.UWP.ProjectionCamera);
+            _typeTable[69] = typeof(global::System.String);
+            _typeTable[70] = typeof(global::System.Double);
+            _typeTable[71] = typeof(global::System.IO.Stream);
+            _typeTable[72] = typeof(global::HelixToolkit.UWP.CameraMode);
+            _typeTable[73] = typeof(global::HelixToolkit.UWP.CameraRotationMode);
             _typeTable[74] = typeof(global::Windows.UI.Core.CoreCursorType);
             _typeTable[75] = typeof(global::HelixToolkit.UWP.InputController);
             _typeTable[76] = typeof(global::System.Exception);
             _typeTable[77] = typeof(global::HelixToolkit.UWP.OITWeightMode);
-            _typeTable[78] = typeof(global::HelixToolkit.UWP.DirectionalLight3D);
-            _typeTable[79] = typeof(global::HelixToolkit.UWP.Light3D);
-            _typeTable[80] = typeof(global::HelixToolkit.UWP.LightType);
-            _typeTable[81] = typeof(global::HelixToolkit.UWP.AxisPlaneGridModel3D);
-            _typeTable[82] = typeof(global::HelixToolkit.UWP.Axis);
-            _typeTable[83] = typeof(global::HelixToolkit.UWP.GridPattern);
-            _typeTable[84] = typeof(global::HelixToolkit.UWP.PostEffectMeshBorderHighlight);
-            _typeTable[85] = typeof(global::HelixToolkit.UWP.PostEffectMeshOutlineBlur);
-            _typeTable[86] = typeof(global::HelixToolkit.UWP.OutlineMode);
-            _typeTable[87] = typeof(global::HelixToolkit.UWP.ShadowMap3D);
-            _typeTable[88] = typeof(global::Windows.Foundation.Size);
-            _typeTable[89] = typeof(global::HelixToolkit.UWP.IProjectionCameraModel);
+            _typeTable[78] = typeof(global::JoystickUserControl.Joystick);
+            _typeTable[79] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[80] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[81] = typeof(global::Windows.UI.Xaml.Media.DoubleCollection);
+            _typeTable[82] = typeof(global::Windows.UI.Xaml.Media.PenLineCap);
+            _typeTable[83] = typeof(global::JoystickUserControl.Joystick.JoystickTheme);
+            _typeTable[84] = typeof(global::HelixToolkit.UWP.ShadowMap3D);
+            _typeTable[85] = typeof(global::Windows.Foundation.Size);
+            _typeTable[86] = typeof(global::HelixToolkit.UWP.IProjectionCameraModel);
+            _typeTable[87] = typeof(global::HelixToolkit.UWP.DirectionalLight3D);
+            _typeTable[88] = typeof(global::HelixToolkit.UWP.Light3D);
+            _typeTable[89] = typeof(global::HelixToolkit.UWP.LightType);
             _typeTable[90] = typeof(global::HelixToolkit.UWP.EnvironmentMap3D);
             _typeTable[91] = typeof(global::HelixToolkit.UWP.GroupModel3D);
             _typeTable[92] = typeof(global::HelixToolkit.UWP.GroupElement3D);
@@ -451,23 +453,25 @@ namespace App1.App1_XamlTypeInfo
             _typeTable[106] = typeof(global::HelixToolkit.UWP.Utilities.IRandomVector);
             _typeTable[107] = typeof(global::SharpDX.Direct3D11.BlendOperation);
             _typeTable[108] = typeof(global::HelixToolkit.UWP.LineGeometryModel3D);
-            _typeTable[109] = typeof(global::HelixToolkit.UWP.PointGeometryModel3D);
-            _typeTable[110] = typeof(global::HelixToolkit.UWP.PointFigure);
-            _typeTable[111] = typeof(global::HelixToolkit.UWP.GeometryModel3DOctreeManager);
-            _typeTable[112] = typeof(global::HelixToolkit.UWP.OctreeManagerBaseWrapper);
-            _typeTable[113] = typeof(global::Windows.UI.Xaml.FrameworkElement);
-            _typeTable[114] = typeof(global::HelixToolkit.UWP.IOctreeBasic);
-            _typeTable[115] = typeof(global::System.Single);
-            _typeTable[116] = typeof(global::HelixToolkit.UWP.IOctreeManager);
-            _typeTable[117] = typeof(global::HelixToolkit.UWP.OctreeBuildParameter);
-            _typeTable[118] = typeof(global::HelixToolkit.UWP.DynamicReflectionMap3D);
-            _typeTable[119] = typeof(global::HelixToolkit.UWP.BillboardTextModel3D);
-            _typeTable[120] = typeof(global::SharpDX.Direct3D11.SamplerStateDescription);
-            _typeTable[121] = typeof(global::HelixToolkit.UWP.ItemsModel3D);
-            _typeTable[122] = typeof(global::System.Collections.IEnumerable);
-            _typeTable[123] = typeof(global::App1.MainPage);
-            _typeTable[124] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[125] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[109] = typeof(global::HelixToolkit.UWP.PostEffectMeshBorderHighlight);
+            _typeTable[110] = typeof(global::HelixToolkit.UWP.PostEffectMeshOutlineBlur);
+            _typeTable[111] = typeof(global::HelixToolkit.UWP.OutlineMode);
+            _typeTable[112] = typeof(global::HelixToolkit.UWP.PointGeometryModel3D);
+            _typeTable[113] = typeof(global::HelixToolkit.UWP.PointFigure);
+            _typeTable[114] = typeof(global::HelixToolkit.UWP.GeometryModel3DOctreeManager);
+            _typeTable[115] = typeof(global::HelixToolkit.UWP.OctreeManagerBaseWrapper);
+            _typeTable[116] = typeof(global::Windows.UI.Xaml.FrameworkElement);
+            _typeTable[117] = typeof(global::HelixToolkit.UWP.IOctreeBasic);
+            _typeTable[118] = typeof(global::System.Single);
+            _typeTable[119] = typeof(global::HelixToolkit.UWP.IOctreeManager);
+            _typeTable[120] = typeof(global::HelixToolkit.UWP.OctreeBuildParameter);
+            _typeTable[121] = typeof(global::HelixToolkit.UWP.DynamicReflectionMap3D);
+            _typeTable[122] = typeof(global::HelixToolkit.UWP.BillboardTextModel3D);
+            _typeTable[123] = typeof(global::SharpDX.Direct3D11.SamplerStateDescription);
+            _typeTable[124] = typeof(global::HelixToolkit.UWP.ItemsModel3D);
+            _typeTable[125] = typeof(global::System.Collections.IEnumerable);
+            _typeTable[126] = typeof(global::App1.MainPage);
+            _typeTable[127] = typeof(global::Windows.UI.Xaml.Controls.Page);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -515,23 +519,23 @@ namespace App1.App1_XamlTypeInfo
         private object Activate_57_Collection() { return new global::System.Collections.ObjectModel.Collection<global::HelixToolkit.UWP.Element3D>(); }
         private object Activate_75_InputController() { return new global::HelixToolkit.UWP.InputController(); }
         private object Activate_76_Exception() { return new global::System.Exception(); }
-        private object Activate_78_DirectionalLight3D() { return new global::HelixToolkit.UWP.DirectionalLight3D(); }
-        private object Activate_81_AxisPlaneGridModel3D() { return new global::HelixToolkit.UWP.AxisPlaneGridModel3D(); }
-        private object Activate_84_PostEffectMeshBorderHighlight() { return new global::HelixToolkit.UWP.PostEffectMeshBorderHighlight(); }
-        private object Activate_85_PostEffectMeshOutlineBlur() { return new global::HelixToolkit.UWP.PostEffectMeshOutlineBlur(); }
-        private object Activate_87_ShadowMap3D() { return new global::HelixToolkit.UWP.ShadowMap3D(); }
+        private object Activate_78_Joystick() { return new global::JoystickUserControl.Joystick(); }
+        private object Activate_84_ShadowMap3D() { return new global::HelixToolkit.UWP.ShadowMap3D(); }
+        private object Activate_87_DirectionalLight3D() { return new global::HelixToolkit.UWP.DirectionalLight3D(); }
         private object Activate_90_EnvironmentMap3D() { return new global::HelixToolkit.UWP.EnvironmentMap3D(); }
         private object Activate_91_GroupModel3D() { return new global::HelixToolkit.UWP.GroupModel3D(); }
         private object Activate_95_MeshGeometryModel3D() { return new global::HelixToolkit.UWP.MeshGeometryModel3D(); }
         private object Activate_104_ParticleStormModel3D() { return new global::HelixToolkit.UWP.ParticleStormModel3D(); }
         private object Activate_108_LineGeometryModel3D() { return new global::HelixToolkit.UWP.LineGeometryModel3D(); }
-        private object Activate_109_PointGeometryModel3D() { return new global::HelixToolkit.UWP.PointGeometryModel3D(); }
-        private object Activate_111_GeometryModel3DOctreeManager() { return new global::HelixToolkit.UWP.GeometryModel3DOctreeManager(); }
-        private object Activate_117_OctreeBuildParameter() { return new global::HelixToolkit.UWP.OctreeBuildParameter(); }
-        private object Activate_118_DynamicReflectionMap3D() { return new global::HelixToolkit.UWP.DynamicReflectionMap3D(); }
-        private object Activate_119_BillboardTextModel3D() { return new global::HelixToolkit.UWP.BillboardTextModel3D(); }
-        private object Activate_121_ItemsModel3D() { return new global::HelixToolkit.UWP.ItemsModel3D(); }
-        private object Activate_123_MainPage() { return new global::App1.MainPage(); }
+        private object Activate_109_PostEffectMeshBorderHighlight() { return new global::HelixToolkit.UWP.PostEffectMeshBorderHighlight(); }
+        private object Activate_110_PostEffectMeshOutlineBlur() { return new global::HelixToolkit.UWP.PostEffectMeshOutlineBlur(); }
+        private object Activate_112_PointGeometryModel3D() { return new global::HelixToolkit.UWP.PointGeometryModel3D(); }
+        private object Activate_114_GeometryModel3DOctreeManager() { return new global::HelixToolkit.UWP.GeometryModel3DOctreeManager(); }
+        private object Activate_120_OctreeBuildParameter() { return new global::HelixToolkit.UWP.OctreeBuildParameter(); }
+        private object Activate_121_DynamicReflectionMap3D() { return new global::HelixToolkit.UWP.DynamicReflectionMap3D(); }
+        private object Activate_122_BillboardTextModel3D() { return new global::HelixToolkit.UWP.BillboardTextModel3D(); }
+        private object Activate_124_ItemsModel3D() { return new global::HelixToolkit.UWP.ItemsModel3D(); }
+        private object Activate_126_MainPage() { return new global::App1.MainPage(); }
         private void VectorAdd_12_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Collections.Generic.KeyValuePair<global::System.Int32, global::HelixToolkit.UWP.Model.Scene.SceneNode>>)instance;
@@ -1011,9 +1015,6 @@ namespace App1.App1_XamlTypeInfo
                 userType.AddMemberName("ShowCoordinateSystem");
                 userType.AddMemberName("ShowFrameDetails");
                 userType.AddMemberName("ShowFrameRate");
-                userType.AddMemberName("CameraMode");
-                userType.AddMemberName("CameraRotationMode");
-                userType.AddMemberName("IsPanEnabled");
                 userType.AddMemberName("RenderHost");
                 userType.AddMemberName("CameraCore");
                 userType.AddMemberName("Renderables");
@@ -1036,6 +1037,8 @@ namespace App1.App1_XamlTypeInfo
                 userType.AddMemberName("IsViewCubeEdgeClicksEnabled");
                 userType.AddMemberName("ViewCubeVerticalPosition");
                 userType.AddMemberName("ViewCubeSize");
+                userType.AddMemberName("CameraMode");
+                userType.AddMemberName("CameraRotationMode");
                 userType.AddMemberName("LeftRightRotationSensitivity");
                 userType.AddMemberName("LeftRightPanSensitivity");
                 userType.AddMemberName("RotationSensitivity");
@@ -1045,6 +1048,7 @@ namespace App1.App1_XamlTypeInfo
                 userType.AddMemberName("SpinReleaseTime");
                 userType.AddMemberName("FixedRotationPoint");
                 userType.AddMemberName("FixedRotationPointEnabled");
+                userType.AddMemberName("IsPanEnabled");
                 userType.AddMemberName("IsInertiaEnabled");
                 userType.AddMemberName("IsRotationEnabled");
                 userType.AddMemberName("IsTouchRotateEnabled");
@@ -1163,7 +1167,44 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 65:   //  HelixToolkit.UWP.CameraMode
+            case 65:   //  HelixToolkit.UWP.Cameras.CameraCore
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Model.ObservableObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 66:   //  HelixToolkit.UWP.Model.ObservableObject
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 67:   //  System.Collections.Generic.IEnumerable`1<HelixToolkit.UWP.Model.Scene2D.SceneNode2D>
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 68:   //  HelixToolkit.UWP.ProjectionCamera
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Camera"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 69:   //  String
+                xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 70:   //  Double
+                xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 71:   //  System.IO.Stream
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 72:   //  HelixToolkit.UWP.CameraMode
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Inspect", global::HelixToolkit.UWP.CameraMode.Inspect);
                 userType.AddEnumValue("WalkAround", global::HelixToolkit.UWP.CameraMode.WalkAround);
@@ -1171,48 +1212,11 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 66:   //  HelixToolkit.UWP.CameraRotationMode
+            case 73:   //  HelixToolkit.UWP.CameraRotationMode
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Turntable", global::HelixToolkit.UWP.CameraRotationMode.Turntable);
                 userType.AddEnumValue("Turnball", global::HelixToolkit.UWP.CameraRotationMode.Turnball);
                 userType.AddEnumValue("Trackball", global::HelixToolkit.UWP.CameraRotationMode.Trackball);
-                xamlType = userType;
-                break;
-
-            case 67:   //  HelixToolkit.UWP.Cameras.CameraCore
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Model.ObservableObject"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 68:   //  HelixToolkit.UWP.Model.ObservableObject
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 69:   //  System.Collections.Generic.IEnumerable`1<HelixToolkit.UWP.Model.Scene2D.SceneNode2D>
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 70:   //  HelixToolkit.UWP.ProjectionCamera
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Camera"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 71:   //  String
-                xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 72:   //  Double
-                xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 73:   //  System.IO.Stream
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
@@ -1258,91 +1262,56 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 78:   //  HelixToolkit.UWP.DirectionalLight3D
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Light3D"));
-                userType.Activator = Activate_78_DirectionalLight3D;
-                userType.AddMemberName("Direction");
+            case 78:   //  JoystickUserControl.Joystick
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_78_Joystick;
+                userType.AddMemberName("XValue");
+                userType.AddMemberName("YValue");
+                userType.AddMemberName("OuterDiameter");
+                userType.AddMemberName("InnerDiameter");
+                userType.AddMemberName("InnerFill");
+                userType.AddMemberName("InnerStroke");
+                userType.AddMemberName("InnerStrokeThickness");
+                userType.AddMemberName("InnerStrokeDashOffset");
+                userType.AddMemberName("InnerStrokeDashArray");
+                userType.AddMemberName("InnerStrokeDashCap");
+                userType.AddMemberName("OuterFill");
+                userType.AddMemberName("OuterStroke");
+                userType.AddMemberName("OuterStrokeThickness");
+                userType.AddMemberName("OuterStrokeDashArray");
+                userType.AddMemberName("OuterStrokeDashOffset");
+                userType.AddMemberName("OuterStrokeDashCap");
+                userType.AddMemberName("Theme");
                 xamlType = userType;
                 break;
 
-            case 79:   //  HelixToolkit.UWP.Light3D
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Element3D"));
-                userType.AddMemberName("Color");
-                userType.AddMemberName("LightType");
-                xamlType = userType;
+            case 79:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 80:   //  HelixToolkit.UWP.LightType
+            case 80:   //  Windows.UI.Xaml.Media.Brush
+                xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 81:   //  Windows.UI.Xaml.Media.DoubleCollection
+                xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 82:   //  Windows.UI.Xaml.Media.PenLineCap
+                xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 83:   //  JoystickUserControl.Joystick.JoystickTheme
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("Ambient", global::HelixToolkit.UWP.LightType.Ambient);
-                userType.AddEnumValue("Directional", global::HelixToolkit.UWP.LightType.Directional);
-                userType.AddEnumValue("Point", global::HelixToolkit.UWP.LightType.Point);
-                userType.AddEnumValue("Spot", global::HelixToolkit.UWP.LightType.Spot);
-                userType.AddEnumValue("ThreePoint", global::HelixToolkit.UWP.LightType.ThreePoint);
-                userType.AddEnumValue("None", global::HelixToolkit.UWP.LightType.None);
+                userType.AddEnumValue("AccentTheme", global::JoystickUserControl.Joystick.JoystickTheme.AccentTheme);
+                userType.AddEnumValue("Dark", global::JoystickUserControl.Joystick.JoystickTheme.Dark);
+                userType.AddEnumValue("Light", global::JoystickUserControl.Joystick.JoystickTheme.Light);
                 xamlType = userType;
                 break;
 
-            case 81:   //  HelixToolkit.UWP.AxisPlaneGridModel3D
+            case 84:   //  HelixToolkit.UWP.ShadowMap3D
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Element3D"));
-                userType.Activator = Activate_81_AxisPlaneGridModel3D;
-                userType.AddMemberName("PlaneColor");
-                userType.AddMemberName("UpAxis");
-                userType.AddMemberName("Offset");
-                userType.AddMemberName("AutoSpacing");
-                userType.AddMemberName("AutoSpacingRate");
-                userType.AddMemberName("GridSpacing");
-                userType.AddMemberName("GridThickness");
-                userType.AddMemberName("FadingFactor");
-                userType.AddMemberName("GridColor");
-                userType.AddMemberName("RenderShadowMap");
-                userType.AddMemberName("GridPattern");
-                xamlType = userType;
-                break;
-
-            case 82:   //  HelixToolkit.UWP.Axis
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("X", global::HelixToolkit.UWP.Axis.X);
-                userType.AddEnumValue("Y", global::HelixToolkit.UWP.Axis.Y);
-                userType.AddEnumValue("Z", global::HelixToolkit.UWP.Axis.Z);
-                xamlType = userType;
-                break;
-
-            case 83:   //  HelixToolkit.UWP.GridPattern
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("Tile", global::HelixToolkit.UWP.GridPattern.Tile);
-                userType.AddEnumValue("Grid", global::HelixToolkit.UWP.GridPattern.Grid);
-                xamlType = userType;
-                break;
-
-            case 84:   //  HelixToolkit.UWP.PostEffectMeshBorderHighlight
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur"));
-                userType.Activator = Activate_84_PostEffectMeshBorderHighlight;
-                userType.AddMemberName("DrawMode");
-                xamlType = userType;
-                break;
-
-            case 85:   //  HelixToolkit.UWP.PostEffectMeshOutlineBlur
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Element3D"));
-                userType.Activator = Activate_85_PostEffectMeshOutlineBlur;
-                userType.AddMemberName("EffectName");
-                userType.AddMemberName("NumberOfBlurPass");
-                userType.AddMemberName("Color");
-                userType.AddMemberName("ScaleX");
-                userType.AddMemberName("ScaleY");
-                xamlType = userType;
-                break;
-
-            case 86:   //  HelixToolkit.UWP.OutlineMode
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("Merged", global::HelixToolkit.UWP.OutlineMode.Merged);
-                userType.AddEnumValue("Separated", global::HelixToolkit.UWP.OutlineMode.Separated);
-                xamlType = userType;
-                break;
-
-            case 87:   //  HelixToolkit.UWP.ShadowMap3D
-                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Element3D"));
-                userType.Activator = Activate_87_ShadowMap3D;
+                userType.Activator = Activate_84_ShadowMap3D;
                 userType.AddMemberName("Distance");
                 userType.AddMemberName("OrthoWidth");
                 userType.AddMemberName("Resolution");
@@ -1354,13 +1323,38 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 88:   //  Windows.Foundation.Size
+            case 85:   //  Windows.Foundation.Size
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 89:   //  HelixToolkit.UWP.IProjectionCameraModel
+            case 86:   //  HelixToolkit.UWP.IProjectionCameraModel
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 87:   //  HelixToolkit.UWP.DirectionalLight3D
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Light3D"));
+                userType.Activator = Activate_87_DirectionalLight3D;
+                userType.AddMemberName("Direction");
+                xamlType = userType;
+                break;
+
+            case 88:   //  HelixToolkit.UWP.Light3D
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Element3D"));
+                userType.AddMemberName("Color");
+                userType.AddMemberName("LightType");
+                xamlType = userType;
+                break;
+
+            case 89:   //  HelixToolkit.UWP.LightType
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Ambient", global::HelixToolkit.UWP.LightType.Ambient);
+                userType.AddEnumValue("Directional", global::HelixToolkit.UWP.LightType.Directional);
+                userType.AddEnumValue("Point", global::HelixToolkit.UWP.LightType.Point);
+                userType.AddEnumValue("Spot", global::HelixToolkit.UWP.LightType.Spot);
+                userType.AddEnumValue("ThreePoint", global::HelixToolkit.UWP.LightType.ThreePoint);
+                userType.AddEnumValue("None", global::HelixToolkit.UWP.LightType.None);
                 xamlType = userType;
                 break;
 
@@ -1558,9 +1552,34 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 109:   //  HelixToolkit.UWP.PointGeometryModel3D
+            case 109:   //  HelixToolkit.UWP.PostEffectMeshBorderHighlight
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur"));
+                userType.Activator = Activate_109_PostEffectMeshBorderHighlight;
+                userType.AddMemberName("DrawMode");
+                xamlType = userType;
+                break;
+
+            case 110:   //  HelixToolkit.UWP.PostEffectMeshOutlineBlur
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Element3D"));
+                userType.Activator = Activate_110_PostEffectMeshOutlineBlur;
+                userType.AddMemberName("EffectName");
+                userType.AddMemberName("NumberOfBlurPass");
+                userType.AddMemberName("Color");
+                userType.AddMemberName("ScaleX");
+                userType.AddMemberName("ScaleY");
+                xamlType = userType;
+                break;
+
+            case 111:   //  HelixToolkit.UWP.OutlineMode
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Merged", global::HelixToolkit.UWP.OutlineMode.Merged);
+                userType.AddEnumValue("Separated", global::HelixToolkit.UWP.OutlineMode.Separated);
+                xamlType = userType;
+                break;
+
+            case 112:   //  HelixToolkit.UWP.PointGeometryModel3D
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.GeometryModel3D"));
-                userType.Activator = Activate_109_PointGeometryModel3D;
+                userType.Activator = Activate_112_PointGeometryModel3D;
                 userType.AddMemberName("Color");
                 userType.AddMemberName("Size");
                 userType.AddMemberName("Figure");
@@ -1569,7 +1588,7 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 110:   //  HelixToolkit.UWP.PointFigure
+            case 113:   //  HelixToolkit.UWP.PointFigure
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Rect", global::HelixToolkit.UWP.PointFigure.Rect);
                 userType.AddEnumValue("Ellipse", global::HelixToolkit.UWP.PointFigure.Ellipse);
@@ -1577,13 +1596,13 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 111:   //  HelixToolkit.UWP.GeometryModel3DOctreeManager
+            case 114:   //  HelixToolkit.UWP.GeometryModel3DOctreeManager
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper"));
-                userType.Activator = Activate_111_GeometryModel3DOctreeManager;
+                userType.Activator = Activate_114_GeometryModel3DOctreeManager;
                 xamlType = userType;
                 break;
 
-            case 112:   //  HelixToolkit.UWP.OctreeManagerBaseWrapper
+            case 115:   //  HelixToolkit.UWP.OctreeManagerBaseWrapper
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.FrameworkElement"));
                 userType.AddMemberName("Octree");
                 userType.AddMemberName("EnableOctreeOutput");
@@ -1598,35 +1617,35 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 113:   //  Windows.UI.Xaml.FrameworkElement
+            case 116:   //  Windows.UI.Xaml.FrameworkElement
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 114:   //  HelixToolkit.UWP.IOctreeBasic
+            case 117:   //  HelixToolkit.UWP.IOctreeBasic
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 115:   //  Single
+            case 118:   //  Single
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 116:   //  HelixToolkit.UWP.IOctreeManager
+            case 119:   //  HelixToolkit.UWP.IOctreeManager
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 117:   //  HelixToolkit.UWP.OctreeBuildParameter
+            case 120:   //  HelixToolkit.UWP.OctreeBuildParameter
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Model.ObservableObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 118:   //  HelixToolkit.UWP.DynamicReflectionMap3D
+            case 121:   //  HelixToolkit.UWP.DynamicReflectionMap3D
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.GroupModel3D"));
-                userType.Activator = Activate_118_DynamicReflectionMap3D;
+                userType.Activator = Activate_121_DynamicReflectionMap3D;
                 userType.SetContentPropertyName("HelixToolkit.UWP.GroupElement3D.Children");
                 userType.AddMemberName("EnableReflector");
                 userType.AddMemberName("Size");
@@ -1636,48 +1655,44 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 119:   //  HelixToolkit.UWP.BillboardTextModel3D
+            case 122:   //  HelixToolkit.UWP.BillboardTextModel3D
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.GeometryModel3D"));
-                userType.Activator = Activate_119_BillboardTextModel3D;
+                userType.Activator = Activate_122_BillboardTextModel3D;
                 userType.AddMemberName("IsTransparent");
                 userType.AddMemberName("FixedSize");
                 userType.AddMemberName("SamplerDescription");
                 xamlType = userType;
                 break;
 
-            case 120:   //  SharpDX.Direct3D11.SamplerStateDescription
+            case 123:   //  SharpDX.Direct3D11.SamplerStateDescription
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 121:   //  HelixToolkit.UWP.ItemsModel3D
+            case 124:   //  HelixToolkit.UWP.ItemsModel3D
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.UWP.Element3D"));
-                userType.Activator = Activate_121_ItemsModel3D;
+                userType.Activator = Activate_124_ItemsModel3D;
                 userType.AddMemberName("ItemsSource");
                 userType.AddMemberName("OctreeManager");
                 userType.AddMemberName("Children");
                 xamlType = userType;
                 break;
 
-            case 122:   //  System.Collections.IEnumerable
+            case 125:   //  System.Collections.IEnumerable
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 123:   //  App1.MainPage
+            case 126:   //  App1.MainPage
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_123_MainPage;
+                userType.Activator = Activate_126_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 124:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 125:   //  Windows.UI.Xaml.Controls.UserControl
+            case 127:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -1694,6 +1709,8 @@ namespace App1.App1_XamlTypeInfo
                     var otherProviders = new global::System.Collections.Generic.List<global::Windows.UI.Xaml.Markup.IXamlMetadataProvider>();
                     global::Windows.UI.Xaml.Markup.IXamlMetadataProvider provider;
                     provider = new global::HelixToolkit.UWP.HelixToolkit_UWP_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::JoystickUserControl.JoystickUserControl_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     _otherProviders = otherProviders;
                 }
@@ -2364,320 +2381,320 @@ namespace App1.App1_XamlTypeInfo
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.ShowFrameRate = (global::System.Boolean)Value;
         }
-        private object get_90_Viewport3DX_CameraMode(object instance)
-        {
-            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
-            return that.CameraMode;
-        }
-        private void set_90_Viewport3DX_CameraMode(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
-            that.CameraMode = (global::HelixToolkit.UWP.CameraMode)Value;
-        }
-        private object get_91_Viewport3DX_CameraRotationMode(object instance)
-        {
-            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
-            return that.CameraRotationMode;
-        }
-        private void set_91_Viewport3DX_CameraRotationMode(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
-            that.CameraRotationMode = (global::HelixToolkit.UWP.CameraRotationMode)Value;
-        }
-        private object get_92_Viewport3DX_IsPanEnabled(object instance)
-        {
-            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
-            return that.IsPanEnabled;
-        }
-        private void set_92_Viewport3DX_IsPanEnabled(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
-            that.IsPanEnabled = (global::System.Boolean)Value;
-        }
-        private object get_93_Viewport3DX_RenderHost(object instance)
+        private object get_90_Viewport3DX_RenderHost(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.RenderHost;
         }
-        private object get_94_Viewport3DX_CameraCore(object instance)
+        private object get_91_Viewport3DX_CameraCore(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.CameraCore;
         }
-        private object get_95_Viewport3DX_Renderables(object instance)
+        private object get_92_Viewport3DX_Renderables(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.Renderables;
         }
-        private object get_96_Viewport3DX_D2DRenderables(object instance)
+        private object get_93_Viewport3DX_D2DRenderables(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.D2DRenderables;
         }
-        private object get_97_Viewport3DX_RenderContext(object instance)
+        private object get_94_Viewport3DX_RenderContext(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.RenderContext;
         }
-        private object get_98_Viewport3DX_RenderTechnique(object instance)
+        private object get_95_Viewport3DX_RenderTechnique(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.RenderTechnique;
         }
-        private void set_98_Viewport3DX_RenderTechnique(object instance, object Value)
+        private void set_95_Viewport3DX_RenderTechnique(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.RenderTechnique = (global::HelixToolkit.UWP.IRenderTechnique)Value;
         }
-        private object get_99_Viewport3DX_EffectsManager(object instance)
+        private object get_96_Viewport3DX_EffectsManager(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.EffectsManager;
         }
-        private void set_99_Viewport3DX_EffectsManager(object instance, object Value)
+        private void set_96_Viewport3DX_EffectsManager(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.EffectsManager = (global::HelixToolkit.UWP.IEffectsManager)Value;
         }
-        private object get_100_Viewport3DX_DefaultCamera(object instance)
+        private object get_97_Viewport3DX_DefaultCamera(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.DefaultCamera;
         }
-        private void set_100_Viewport3DX_DefaultCamera(object instance, object Value)
+        private void set_97_Viewport3DX_DefaultCamera(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.DefaultCamera = (global::HelixToolkit.UWP.ProjectionCamera)Value;
         }
-        private object get_101_Viewport3DX_MessageText(object instance)
+        private object get_98_Viewport3DX_MessageText(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.MessageText;
         }
-        private void set_101_Viewport3DX_MessageText(object instance, object Value)
+        private void set_98_Viewport3DX_MessageText(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.MessageText = (global::System.String)Value;
         }
-        private object get_102_Viewport3DX_CoordinateSystemHorizontalPosition(object instance)
+        private object get_99_Viewport3DX_CoordinateSystemHorizontalPosition(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.CoordinateSystemHorizontalPosition;
         }
-        private void set_102_Viewport3DX_CoordinateSystemHorizontalPosition(object instance, object Value)
+        private void set_99_Viewport3DX_CoordinateSystemHorizontalPosition(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.CoordinateSystemHorizontalPosition = (global::System.Double)Value;
         }
-        private object get_103_Viewport3DX_CoordinateSystemLabelForeground(object instance)
+        private object get_100_Viewport3DX_CoordinateSystemLabelForeground(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.CoordinateSystemLabelForeground;
         }
-        private void set_103_Viewport3DX_CoordinateSystemLabelForeground(object instance, object Value)
+        private void set_100_Viewport3DX_CoordinateSystemLabelForeground(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.CoordinateSystemLabelForeground = (global::Windows.UI.Color)Value;
         }
-        private object get_104_Viewport3DX_CoordinateSystemLabelX(object instance)
+        private object get_101_Viewport3DX_CoordinateSystemLabelX(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.CoordinateSystemLabelX;
         }
-        private void set_104_Viewport3DX_CoordinateSystemLabelX(object instance, object Value)
+        private void set_101_Viewport3DX_CoordinateSystemLabelX(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.CoordinateSystemLabelX = (global::System.String)Value;
         }
-        private object get_105_Viewport3DX_CoordinateSystemLabelY(object instance)
+        private object get_102_Viewport3DX_CoordinateSystemLabelY(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.CoordinateSystemLabelY;
         }
-        private void set_105_Viewport3DX_CoordinateSystemLabelY(object instance, object Value)
+        private void set_102_Viewport3DX_CoordinateSystemLabelY(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.CoordinateSystemLabelY = (global::System.String)Value;
         }
-        private object get_106_Viewport3DX_CoordinateSystemLabelZ(object instance)
+        private object get_103_Viewport3DX_CoordinateSystemLabelZ(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.CoordinateSystemLabelZ;
         }
-        private void set_106_Viewport3DX_CoordinateSystemLabelZ(object instance, object Value)
+        private void set_103_Viewport3DX_CoordinateSystemLabelZ(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.CoordinateSystemLabelZ = (global::System.String)Value;
         }
-        private object get_107_Viewport3DX_CoordinateSystemVerticalPosition(object instance)
+        private object get_104_Viewport3DX_CoordinateSystemVerticalPosition(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.CoordinateSystemVerticalPosition;
         }
-        private void set_107_Viewport3DX_CoordinateSystemVerticalPosition(object instance, object Value)
+        private void set_104_Viewport3DX_CoordinateSystemVerticalPosition(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.CoordinateSystemVerticalPosition = (global::System.Double)Value;
         }
-        private object get_108_Viewport3DX_CoordinateSystemSize(object instance)
+        private object get_105_Viewport3DX_CoordinateSystemSize(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.CoordinateSystemSize;
         }
-        private void set_108_Viewport3DX_CoordinateSystemSize(object instance, object Value)
+        private void set_105_Viewport3DX_CoordinateSystemSize(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.CoordinateSystemSize = (global::System.Double)Value;
         }
-        private object get_109_Viewport3DX_ShowViewCube(object instance)
+        private object get_106_Viewport3DX_ShowViewCube(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.ShowViewCube;
         }
-        private void set_109_Viewport3DX_ShowViewCube(object instance, object Value)
+        private void set_106_Viewport3DX_ShowViewCube(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.ShowViewCube = (global::System.Boolean)Value;
         }
-        private object get_110_Viewport3DX_ViewCubeTexture(object instance)
+        private object get_107_Viewport3DX_ViewCubeTexture(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.ViewCubeTexture;
         }
-        private void set_110_Viewport3DX_ViewCubeTexture(object instance, object Value)
+        private void set_107_Viewport3DX_ViewCubeTexture(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.ViewCubeTexture = (global::System.IO.Stream)Value;
         }
-        private object get_111_Viewport3DX_ViewCubeHorizontalPosition(object instance)
+        private object get_108_Viewport3DX_ViewCubeHorizontalPosition(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.ViewCubeHorizontalPosition;
         }
-        private void set_111_Viewport3DX_ViewCubeHorizontalPosition(object instance, object Value)
+        private void set_108_Viewport3DX_ViewCubeHorizontalPosition(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.ViewCubeHorizontalPosition = (global::System.Double)Value;
         }
-        private object get_112_Viewport3DX_IsViewCubeEdgeClicksEnabled(object instance)
+        private object get_109_Viewport3DX_IsViewCubeEdgeClicksEnabled(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.IsViewCubeEdgeClicksEnabled;
         }
-        private void set_112_Viewport3DX_IsViewCubeEdgeClicksEnabled(object instance, object Value)
+        private void set_109_Viewport3DX_IsViewCubeEdgeClicksEnabled(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.IsViewCubeEdgeClicksEnabled = (global::System.Boolean)Value;
         }
-        private object get_113_Viewport3DX_ViewCubeVerticalPosition(object instance)
+        private object get_110_Viewport3DX_ViewCubeVerticalPosition(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.ViewCubeVerticalPosition;
         }
-        private void set_113_Viewport3DX_ViewCubeVerticalPosition(object instance, object Value)
+        private void set_110_Viewport3DX_ViewCubeVerticalPosition(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.ViewCubeVerticalPosition = (global::System.Double)Value;
         }
-        private object get_114_Viewport3DX_ViewCubeSize(object instance)
+        private object get_111_Viewport3DX_ViewCubeSize(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.ViewCubeSize;
         }
-        private void set_114_Viewport3DX_ViewCubeSize(object instance, object Value)
+        private void set_111_Viewport3DX_ViewCubeSize(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.ViewCubeSize = (global::System.Double)Value;
         }
-        private object get_115_Viewport3DX_LeftRightRotationSensitivity(object instance)
+        private object get_112_Viewport3DX_CameraMode(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
+            return that.CameraMode;
+        }
+        private void set_112_Viewport3DX_CameraMode(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
+            that.CameraMode = (global::HelixToolkit.UWP.CameraMode)Value;
+        }
+        private object get_113_Viewport3DX_CameraRotationMode(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
+            return that.CameraRotationMode;
+        }
+        private void set_113_Viewport3DX_CameraRotationMode(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
+            that.CameraRotationMode = (global::HelixToolkit.UWP.CameraRotationMode)Value;
+        }
+        private object get_114_Viewport3DX_LeftRightRotationSensitivity(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.LeftRightRotationSensitivity;
         }
-        private void set_115_Viewport3DX_LeftRightRotationSensitivity(object instance, object Value)
+        private void set_114_Viewport3DX_LeftRightRotationSensitivity(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.LeftRightRotationSensitivity = (global::System.Double)Value;
         }
-        private object get_116_Viewport3DX_LeftRightPanSensitivity(object instance)
+        private object get_115_Viewport3DX_LeftRightPanSensitivity(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.LeftRightPanSensitivity;
         }
-        private void set_116_Viewport3DX_LeftRightPanSensitivity(object instance, object Value)
+        private void set_115_Viewport3DX_LeftRightPanSensitivity(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.LeftRightPanSensitivity = (global::System.Double)Value;
         }
-        private object get_117_Viewport3DX_RotationSensitivity(object instance)
+        private object get_116_Viewport3DX_RotationSensitivity(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.RotationSensitivity;
         }
-        private void set_117_Viewport3DX_RotationSensitivity(object instance, object Value)
+        private void set_116_Viewport3DX_RotationSensitivity(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.RotationSensitivity = (global::System.Double)Value;
         }
-        private object get_118_Viewport3DX_UpDownPanSensitivity(object instance)
+        private object get_117_Viewport3DX_UpDownPanSensitivity(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.UpDownPanSensitivity;
         }
-        private void set_118_Viewport3DX_UpDownPanSensitivity(object instance, object Value)
+        private void set_117_Viewport3DX_UpDownPanSensitivity(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.UpDownPanSensitivity = (global::System.Double)Value;
         }
-        private object get_119_Viewport3DX_UpDownRotationSensitivity(object instance)
+        private object get_118_Viewport3DX_UpDownRotationSensitivity(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.UpDownRotationSensitivity;
         }
-        private void set_119_Viewport3DX_UpDownRotationSensitivity(object instance, object Value)
+        private void set_118_Viewport3DX_UpDownRotationSensitivity(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.UpDownRotationSensitivity = (global::System.Double)Value;
         }
-        private object get_120_Viewport3DX_ZoomSensitivity(object instance)
+        private object get_119_Viewport3DX_ZoomSensitivity(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.ZoomSensitivity;
         }
-        private void set_120_Viewport3DX_ZoomSensitivity(object instance, object Value)
+        private void set_119_Viewport3DX_ZoomSensitivity(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.ZoomSensitivity = (global::System.Double)Value;
         }
-        private object get_121_Viewport3DX_SpinReleaseTime(object instance)
+        private object get_120_Viewport3DX_SpinReleaseTime(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.SpinReleaseTime;
         }
-        private void set_121_Viewport3DX_SpinReleaseTime(object instance, object Value)
+        private void set_120_Viewport3DX_SpinReleaseTime(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.SpinReleaseTime = (global::System.Int32)Value;
         }
-        private object get_122_Viewport3DX_FixedRotationPoint(object instance)
+        private object get_121_Viewport3DX_FixedRotationPoint(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.FixedRotationPoint;
         }
-        private void set_122_Viewport3DX_FixedRotationPoint(object instance, object Value)
+        private void set_121_Viewport3DX_FixedRotationPoint(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.FixedRotationPoint = (global::SharpDX.Vector3)Value;
         }
-        private object get_123_Viewport3DX_FixedRotationPointEnabled(object instance)
+        private object get_122_Viewport3DX_FixedRotationPointEnabled(object instance)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             return that.FixedRotationPointEnabled;
         }
-        private void set_123_Viewport3DX_FixedRotationPointEnabled(object instance, object Value)
+        private void set_122_Viewport3DX_FixedRotationPointEnabled(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.FixedRotationPointEnabled = (global::System.Boolean)Value;
+        }
+        private object get_123_Viewport3DX_IsPanEnabled(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
+            return that.IsPanEnabled;
+        }
+        private void set_123_Viewport3DX_IsPanEnabled(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
+            that.IsPanEnabled = (global::System.Boolean)Value;
         }
         private object get_124_Viewport3DX_IsInertiaEnabled(object instance)
         {
@@ -3049,280 +3066,270 @@ namespace App1.App1_XamlTypeInfo
             var that = (global::HelixToolkit.UWP.Viewport3DX)instance;
             that.EnableRenderOrder = (global::System.Boolean)Value;
         }
-        private object get_161_DirectionalLight3D_Direction(object instance)
+        private object get_161_Joystick_XValue(object instance)
         {
-            var that = (global::HelixToolkit.UWP.DirectionalLight3D)instance;
-            return that.Direction;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.XValue;
         }
-        private void set_161_DirectionalLight3D_Direction(object instance, object Value)
+        private object get_162_Joystick_YValue(object instance)
         {
-            var that = (global::HelixToolkit.UWP.DirectionalLight3D)instance;
-            that.Direction = (global::SharpDX.Vector3)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.YValue;
         }
-        private object get_162_Light3D_Color(object instance)
+        private object get_163_Joystick_OuterDiameter(object instance)
         {
-            var that = (global::HelixToolkit.UWP.Light3D)instance;
-            return that.Color;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.OuterDiameter;
         }
-        private void set_162_Light3D_Color(object instance, object Value)
+        private void set_163_Joystick_OuterDiameter(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.Light3D)instance;
-            that.Color = (global::Windows.UI.Color)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.OuterDiameter = (global::System.Double)Value;
         }
-        private object get_163_Light3D_LightType(object instance)
+        private object get_164_Joystick_InnerDiameter(object instance)
         {
-            var that = (global::HelixToolkit.UWP.Light3D)instance;
-            return that.LightType;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.InnerDiameter;
         }
-        private object get_164_AxisPlaneGridModel3D_PlaneColor(object instance)
+        private void set_164_Joystick_InnerDiameter(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.PlaneColor;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.InnerDiameter = (global::System.Double)Value;
         }
-        private void set_164_AxisPlaneGridModel3D_PlaneColor(object instance, object Value)
+        private object get_165_Joystick_InnerFill(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.PlaneColor = (global::Windows.UI.Color)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.InnerFill;
         }
-        private object get_165_AxisPlaneGridModel3D_UpAxis(object instance)
+        private void set_165_Joystick_InnerFill(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.UpAxis;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.InnerFill = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private void set_165_AxisPlaneGridModel3D_UpAxis(object instance, object Value)
+        private object get_166_Joystick_InnerStroke(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.UpAxis = (global::HelixToolkit.UWP.Axis)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.InnerStroke;
         }
-        private object get_166_AxisPlaneGridModel3D_Offset(object instance)
+        private void set_166_Joystick_InnerStroke(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.Offset;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.InnerStroke = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private void set_166_AxisPlaneGridModel3D_Offset(object instance, object Value)
+        private object get_167_Joystick_InnerStrokeThickness(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.Offset = (global::System.Double)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.InnerStrokeThickness;
         }
-        private object get_167_AxisPlaneGridModel3D_AutoSpacing(object instance)
+        private void set_167_Joystick_InnerStrokeThickness(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.AutoSpacing;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.InnerStrokeThickness = (global::System.Double)Value;
         }
-        private void set_167_AxisPlaneGridModel3D_AutoSpacing(object instance, object Value)
+        private object get_168_Joystick_InnerStrokeDashOffset(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.AutoSpacing = (global::System.Boolean)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.InnerStrokeDashOffset;
         }
-        private object get_168_AxisPlaneGridModel3D_AutoSpacingRate(object instance)
+        private void set_168_Joystick_InnerStrokeDashOffset(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.AutoSpacingRate;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.InnerStrokeDashOffset = (global::System.Double)Value;
         }
-        private void set_168_AxisPlaneGridModel3D_AutoSpacingRate(object instance, object Value)
+        private object get_169_Joystick_InnerStrokeDashArray(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.AutoSpacingRate = (global::System.Double)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.InnerStrokeDashArray;
         }
-        private object get_169_AxisPlaneGridModel3D_GridSpacing(object instance)
+        private void set_169_Joystick_InnerStrokeDashArray(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.GridSpacing;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.InnerStrokeDashArray = (global::Windows.UI.Xaml.Media.DoubleCollection)Value;
         }
-        private void set_169_AxisPlaneGridModel3D_GridSpacing(object instance, object Value)
+        private object get_170_Joystick_InnerStrokeDashCap(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.GridSpacing = (global::System.Double)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.InnerStrokeDashCap;
         }
-        private object get_170_AxisPlaneGridModel3D_GridThickness(object instance)
+        private void set_170_Joystick_InnerStrokeDashCap(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.GridThickness;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.InnerStrokeDashCap = (global::Windows.UI.Xaml.Media.PenLineCap)Value;
         }
-        private void set_170_AxisPlaneGridModel3D_GridThickness(object instance, object Value)
+        private object get_171_Joystick_OuterFill(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.GridThickness = (global::System.Double)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.OuterFill;
         }
-        private object get_171_AxisPlaneGridModel3D_FadingFactor(object instance)
+        private void set_171_Joystick_OuterFill(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.FadingFactor;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.OuterFill = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private void set_171_AxisPlaneGridModel3D_FadingFactor(object instance, object Value)
+        private object get_172_Joystick_OuterStroke(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.FadingFactor = (global::System.Double)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.OuterStroke;
         }
-        private object get_172_AxisPlaneGridModel3D_GridColor(object instance)
+        private void set_172_Joystick_OuterStroke(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.GridColor;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.OuterStroke = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private void set_172_AxisPlaneGridModel3D_GridColor(object instance, object Value)
+        private object get_173_Joystick_OuterStrokeThickness(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.GridColor = (global::Windows.UI.Color)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.OuterStrokeThickness;
         }
-        private object get_173_AxisPlaneGridModel3D_RenderShadowMap(object instance)
+        private void set_173_Joystick_OuterStrokeThickness(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.RenderShadowMap;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.OuterStrokeThickness = (global::System.Double)Value;
         }
-        private void set_173_AxisPlaneGridModel3D_RenderShadowMap(object instance, object Value)
+        private object get_174_Joystick_OuterStrokeDashArray(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.RenderShadowMap = (global::System.Boolean)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.OuterStrokeDashArray;
         }
-        private object get_174_AxisPlaneGridModel3D_GridPattern(object instance)
+        private void set_174_Joystick_OuterStrokeDashArray(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            return that.GridPattern;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.OuterStrokeDashArray = (global::Windows.UI.Xaml.Media.DoubleCollection)Value;
         }
-        private void set_174_AxisPlaneGridModel3D_GridPattern(object instance, object Value)
+        private object get_175_Joystick_OuterStrokeDashOffset(object instance)
         {
-            var that = (global::HelixToolkit.UWP.AxisPlaneGridModel3D)instance;
-            that.GridPattern = (global::HelixToolkit.UWP.GridPattern)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.OuterStrokeDashOffset;
         }
-        private object get_175_PostEffectMeshOutlineBlur_EffectName(object instance)
+        private void set_175_Joystick_OuterStrokeDashOffset(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            return that.EffectName;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.OuterStrokeDashOffset = (global::System.Double)Value;
         }
-        private void set_175_PostEffectMeshOutlineBlur_EffectName(object instance, object Value)
+        private object get_176_Joystick_OuterStrokeDashCap(object instance)
         {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            that.EffectName = (global::System.String)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.OuterStrokeDashCap;
         }
-        private object get_176_PostEffectMeshOutlineBlur_NumberOfBlurPass(object instance)
+        private void set_176_Joystick_OuterStrokeDashCap(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            return that.NumberOfBlurPass;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.OuterStrokeDashCap = (global::Windows.UI.Xaml.Media.PenLineCap)Value;
         }
-        private void set_176_PostEffectMeshOutlineBlur_NumberOfBlurPass(object instance, object Value)
+        private object get_177_Joystick_Theme(object instance)
         {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            that.NumberOfBlurPass = (global::System.Int32)Value;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            return that.Theme;
         }
-        private object get_177_PostEffectMeshBorderHighlight_DrawMode(object instance)
+        private void set_177_Joystick_Theme(object instance, object Value)
         {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshBorderHighlight)instance;
-            return that.DrawMode;
+            var that = (global::JoystickUserControl.Joystick)instance;
+            that.Theme = (global::JoystickUserControl.Joystick.JoystickTheme)Value;
         }
-        private void set_177_PostEffectMeshBorderHighlight_DrawMode(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshBorderHighlight)instance;
-            that.DrawMode = (global::HelixToolkit.UWP.OutlineMode)Value;
-        }
-        private object get_178_PostEffectMeshOutlineBlur_Color(object instance)
-        {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            return that.Color;
-        }
-        private void set_178_PostEffectMeshOutlineBlur_Color(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            that.Color = (global::Windows.UI.Color)Value;
-        }
-        private object get_179_PostEffectMeshOutlineBlur_ScaleX(object instance)
-        {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            return that.ScaleX;
-        }
-        private void set_179_PostEffectMeshOutlineBlur_ScaleX(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            that.ScaleX = (global::System.Double)Value;
-        }
-        private object get_180_PostEffectMeshOutlineBlur_ScaleY(object instance)
-        {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            return that.ScaleY;
-        }
-        private void set_180_PostEffectMeshOutlineBlur_ScaleY(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
-            that.ScaleY = (global::System.Double)Value;
-        }
-        private object get_181_ShadowMap3D_Distance(object instance)
+        private object get_178_ShadowMap3D_Distance(object instance)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             return that.Distance;
         }
-        private void set_181_ShadowMap3D_Distance(object instance, object Value)
+        private void set_178_ShadowMap3D_Distance(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             that.Distance = (global::System.Double)Value;
         }
-        private object get_182_ShadowMap3D_OrthoWidth(object instance)
+        private object get_179_ShadowMap3D_OrthoWidth(object instance)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             return that.OrthoWidth;
         }
-        private void set_182_ShadowMap3D_OrthoWidth(object instance, object Value)
+        private void set_179_ShadowMap3D_OrthoWidth(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             that.OrthoWidth = (global::System.Double)Value;
         }
-        private object get_183_ShadowMap3D_Resolution(object instance)
+        private object get_180_ShadowMap3D_Resolution(object instance)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             return that.Resolution;
         }
-        private void set_183_ShadowMap3D_Resolution(object instance, object Value)
+        private void set_180_ShadowMap3D_Resolution(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             that.Resolution = (global::Windows.Foundation.Size)Value;
         }
-        private object get_184_ShadowMap3D_Bias(object instance)
+        private object get_181_ShadowMap3D_Bias(object instance)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             return that.Bias;
         }
-        private void set_184_ShadowMap3D_Bias(object instance, object Value)
+        private void set_181_ShadowMap3D_Bias(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             that.Bias = (global::System.Double)Value;
         }
-        private object get_185_ShadowMap3D_Intensity(object instance)
+        private object get_182_ShadowMap3D_Intensity(object instance)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             return that.Intensity;
         }
-        private void set_185_ShadowMap3D_Intensity(object instance, object Value)
+        private void set_182_ShadowMap3D_Intensity(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             that.Intensity = (global::System.Double)Value;
         }
-        private object get_186_ShadowMap3D_NearFieldDistance(object instance)
+        private object get_183_ShadowMap3D_NearFieldDistance(object instance)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             return that.NearFieldDistance;
         }
-        private void set_186_ShadowMap3D_NearFieldDistance(object instance, object Value)
+        private void set_183_ShadowMap3D_NearFieldDistance(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             that.NearFieldDistance = (global::System.Double)Value;
         }
-        private object get_187_ShadowMap3D_FarFieldDistance(object instance)
+        private object get_184_ShadowMap3D_FarFieldDistance(object instance)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             return that.FarFieldDistance;
         }
-        private void set_187_ShadowMap3D_FarFieldDistance(object instance, object Value)
+        private void set_184_ShadowMap3D_FarFieldDistance(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             that.FarFieldDistance = (global::System.Double)Value;
         }
-        private object get_188_ShadowMap3D_LightCamera(object instance)
+        private object get_185_ShadowMap3D_LightCamera(object instance)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             return that.LightCamera;
         }
-        private void set_188_ShadowMap3D_LightCamera(object instance, object Value)
+        private void set_185_ShadowMap3D_LightCamera(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ShadowMap3D)instance;
             that.LightCamera = (global::HelixToolkit.UWP.IProjectionCameraModel)Value;
+        }
+        private object get_186_DirectionalLight3D_Direction(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.DirectionalLight3D)instance;
+            return that.Direction;
+        }
+        private void set_186_DirectionalLight3D_Direction(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.DirectionalLight3D)instance;
+            that.Direction = (global::SharpDX.Vector3)Value;
+        }
+        private object get_187_Light3D_Color(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.Light3D)instance;
+            return that.Color;
+        }
+        private void set_187_Light3D_Color(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.Light3D)instance;
+            that.Color = (global::Windows.UI.Color)Value;
+        }
+        private object get_188_Light3D_LightType(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.Light3D)instance;
+            return that.LightType;
         }
         private object get_189_EnvironmentMap3D_Texture(object instance)
         {
@@ -4044,252 +4051,312 @@ namespace App1.App1_XamlTypeInfo
             var that = (global::HelixToolkit.UWP.LineGeometryModel3D)instance;
             that.HitTestThickness = (global::System.Double)Value;
         }
-        private object get_262_PointGeometryModel3D_Color(object instance)
+        private object get_262_PostEffectMeshOutlineBlur_EffectName(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            return that.EffectName;
+        }
+        private void set_262_PostEffectMeshOutlineBlur_EffectName(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            that.EffectName = (global::System.String)Value;
+        }
+        private object get_263_PostEffectMeshOutlineBlur_NumberOfBlurPass(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            return that.NumberOfBlurPass;
+        }
+        private void set_263_PostEffectMeshOutlineBlur_NumberOfBlurPass(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            that.NumberOfBlurPass = (global::System.Int32)Value;
+        }
+        private object get_264_PostEffectMeshBorderHighlight_DrawMode(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshBorderHighlight)instance;
+            return that.DrawMode;
+        }
+        private void set_264_PostEffectMeshBorderHighlight_DrawMode(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshBorderHighlight)instance;
+            that.DrawMode = (global::HelixToolkit.UWP.OutlineMode)Value;
+        }
+        private object get_265_PostEffectMeshOutlineBlur_Color(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            return that.Color;
+        }
+        private void set_265_PostEffectMeshOutlineBlur_Color(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            that.Color = (global::Windows.UI.Color)Value;
+        }
+        private object get_266_PostEffectMeshOutlineBlur_ScaleX(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            return that.ScaleX;
+        }
+        private void set_266_PostEffectMeshOutlineBlur_ScaleX(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            that.ScaleX = (global::System.Double)Value;
+        }
+        private object get_267_PostEffectMeshOutlineBlur_ScaleY(object instance)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            return that.ScaleY;
+        }
+        private void set_267_PostEffectMeshOutlineBlur_ScaleY(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.UWP.PostEffectMeshOutlineBlur)instance;
+            that.ScaleY = (global::System.Double)Value;
+        }
+        private object get_268_PointGeometryModel3D_Color(object instance)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             return that.Color;
         }
-        private void set_262_PointGeometryModel3D_Color(object instance, object Value)
+        private void set_268_PointGeometryModel3D_Color(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             that.Color = (global::Windows.UI.Color)Value;
         }
-        private object get_263_PointGeometryModel3D_Size(object instance)
+        private object get_269_PointGeometryModel3D_Size(object instance)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             return that.Size;
         }
-        private void set_263_PointGeometryModel3D_Size(object instance, object Value)
+        private void set_269_PointGeometryModel3D_Size(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             that.Size = (global::Windows.Foundation.Size)Value;
         }
-        private object get_264_PointGeometryModel3D_Figure(object instance)
+        private object get_270_PointGeometryModel3D_Figure(object instance)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             return that.Figure;
         }
-        private void set_264_PointGeometryModel3D_Figure(object instance, object Value)
+        private void set_270_PointGeometryModel3D_Figure(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             that.Figure = (global::HelixToolkit.UWP.PointFigure)Value;
         }
-        private object get_265_PointGeometryModel3D_FigureRatio(object instance)
+        private object get_271_PointGeometryModel3D_FigureRatio(object instance)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             return that.FigureRatio;
         }
-        private void set_265_PointGeometryModel3D_FigureRatio(object instance, object Value)
+        private void set_271_PointGeometryModel3D_FigureRatio(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             that.FigureRatio = (global::System.Double)Value;
         }
-        private object get_266_PointGeometryModel3D_HitTestThickness(object instance)
+        private object get_272_PointGeometryModel3D_HitTestThickness(object instance)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             return that.HitTestThickness;
         }
-        private void set_266_PointGeometryModel3D_HitTestThickness(object instance, object Value)
+        private void set_272_PointGeometryModel3D_HitTestThickness(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.PointGeometryModel3D)instance;
             that.HitTestThickness = (global::System.Double)Value;
         }
-        private object get_267_OctreeManagerBaseWrapper_Octree(object instance)
+        private object get_273_OctreeManagerBaseWrapper_Octree(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.Octree;
         }
-        private void set_267_OctreeManagerBaseWrapper_Octree(object instance, object Value)
+        private void set_273_OctreeManagerBaseWrapper_Octree(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             that.Octree = (global::HelixToolkit.UWP.IOctreeBasic)Value;
         }
-        private object get_268_OctreeManagerBaseWrapper_EnableOctreeOutput(object instance)
+        private object get_274_OctreeManagerBaseWrapper_EnableOctreeOutput(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.EnableOctreeOutput;
         }
-        private void set_268_OctreeManagerBaseWrapper_EnableOctreeOutput(object instance, object Value)
+        private void set_274_OctreeManagerBaseWrapper_EnableOctreeOutput(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             that.EnableOctreeOutput = (global::System.Boolean)Value;
         }
-        private object get_269_OctreeManagerBaseWrapper_MinSize(object instance)
+        private object get_275_OctreeManagerBaseWrapper_MinSize(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.MinSize;
         }
-        private void set_269_OctreeManagerBaseWrapper_MinSize(object instance, object Value)
+        private void set_275_OctreeManagerBaseWrapper_MinSize(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             that.MinSize = (global::System.Single)Value;
         }
-        private object get_270_OctreeManagerBaseWrapper_AutoDeleteIfEmpty(object instance)
+        private object get_276_OctreeManagerBaseWrapper_AutoDeleteIfEmpty(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.AutoDeleteIfEmpty;
         }
-        private void set_270_OctreeManagerBaseWrapper_AutoDeleteIfEmpty(object instance, object Value)
+        private void set_276_OctreeManagerBaseWrapper_AutoDeleteIfEmpty(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             that.AutoDeleteIfEmpty = (global::System.Boolean)Value;
         }
-        private object get_271_OctreeManagerBaseWrapper_Cubify(object instance)
+        private object get_277_OctreeManagerBaseWrapper_Cubify(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.Cubify;
         }
-        private void set_271_OctreeManagerBaseWrapper_Cubify(object instance, object Value)
+        private void set_277_OctreeManagerBaseWrapper_Cubify(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             that.Cubify = (global::System.Boolean)Value;
         }
-        private object get_272_OctreeManagerBaseWrapper_RecordHitPathBoundingBoxes(object instance)
+        private object get_278_OctreeManagerBaseWrapper_RecordHitPathBoundingBoxes(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.RecordHitPathBoundingBoxes;
         }
-        private void set_272_OctreeManagerBaseWrapper_RecordHitPathBoundingBoxes(object instance, object Value)
+        private void set_278_OctreeManagerBaseWrapper_RecordHitPathBoundingBoxes(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             that.RecordHitPathBoundingBoxes = (global::System.Boolean)Value;
         }
-        private object get_273_OctreeManagerBaseWrapper_MinObjectSizeToSplit(object instance)
+        private object get_279_OctreeManagerBaseWrapper_MinObjectSizeToSplit(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.MinObjectSizeToSplit;
         }
-        private void set_273_OctreeManagerBaseWrapper_MinObjectSizeToSplit(object instance, object Value)
+        private void set_279_OctreeManagerBaseWrapper_MinObjectSizeToSplit(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             that.MinObjectSizeToSplit = (global::System.Int32)Value;
         }
-        private object get_274_OctreeManagerBaseWrapper_Manager(object instance)
+        private object get_280_OctreeManagerBaseWrapper_Manager(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.Manager;
         }
-        private object get_275_OctreeManagerBaseWrapper_Enabled(object instance)
+        private object get_281_OctreeManagerBaseWrapper_Enabled(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.Enabled;
         }
-        private void set_275_OctreeManagerBaseWrapper_Enabled(object instance, object Value)
+        private void set_281_OctreeManagerBaseWrapper_Enabled(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             that.Enabled = (global::System.Boolean)Value;
         }
-        private object get_276_OctreeManagerBaseWrapper_Parameter(object instance)
+        private object get_282_OctreeManagerBaseWrapper_Parameter(object instance)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             return that.Parameter;
         }
-        private void set_276_OctreeManagerBaseWrapper_Parameter(object instance, object Value)
+        private void set_282_OctreeManagerBaseWrapper_Parameter(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.OctreeManagerBaseWrapper)instance;
             that.Parameter = (global::HelixToolkit.UWP.OctreeBuildParameter)Value;
         }
-        private object get_277_DynamicReflectionMap3D_EnableReflector(object instance)
+        private object get_283_DynamicReflectionMap3D_EnableReflector(object instance)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             return that.EnableReflector;
         }
-        private void set_277_DynamicReflectionMap3D_EnableReflector(object instance, object Value)
+        private void set_283_DynamicReflectionMap3D_EnableReflector(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             that.EnableReflector = (global::System.Boolean)Value;
         }
-        private object get_278_DynamicReflectionMap3D_Size(object instance)
+        private object get_284_DynamicReflectionMap3D_Size(object instance)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             return that.Size;
         }
-        private void set_278_DynamicReflectionMap3D_Size(object instance, object Value)
+        private void set_284_DynamicReflectionMap3D_Size(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             that.Size = (global::System.Int32)Value;
         }
-        private object get_279_DynamicReflectionMap3D_FarField(object instance)
+        private object get_285_DynamicReflectionMap3D_FarField(object instance)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             return that.FarField;
         }
-        private void set_279_DynamicReflectionMap3D_FarField(object instance, object Value)
+        private void set_285_DynamicReflectionMap3D_FarField(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             that.FarField = (global::System.Double)Value;
         }
-        private object get_280_DynamicReflectionMap3D_NearField(object instance)
+        private object get_286_DynamicReflectionMap3D_NearField(object instance)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             return that.NearField;
         }
-        private void set_280_DynamicReflectionMap3D_NearField(object instance, object Value)
+        private void set_286_DynamicReflectionMap3D_NearField(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             that.NearField = (global::System.Double)Value;
         }
-        private object get_281_DynamicReflectionMap3D_IsLeftHanded(object instance)
+        private object get_287_DynamicReflectionMap3D_IsLeftHanded(object instance)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             return that.IsLeftHanded;
         }
-        private void set_281_DynamicReflectionMap3D_IsLeftHanded(object instance, object Value)
+        private void set_287_DynamicReflectionMap3D_IsLeftHanded(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.DynamicReflectionMap3D)instance;
             that.IsLeftHanded = (global::System.Boolean)Value;
         }
-        private object get_282_BillboardTextModel3D_IsTransparent(object instance)
+        private object get_288_BillboardTextModel3D_IsTransparent(object instance)
         {
             var that = (global::HelixToolkit.UWP.BillboardTextModel3D)instance;
             return that.IsTransparent;
         }
-        private void set_282_BillboardTextModel3D_IsTransparent(object instance, object Value)
+        private void set_288_BillboardTextModel3D_IsTransparent(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.BillboardTextModel3D)instance;
             that.IsTransparent = (global::System.Boolean)Value;
         }
-        private object get_283_BillboardTextModel3D_FixedSize(object instance)
+        private object get_289_BillboardTextModel3D_FixedSize(object instance)
         {
             var that = (global::HelixToolkit.UWP.BillboardTextModel3D)instance;
             return that.FixedSize;
         }
-        private void set_283_BillboardTextModel3D_FixedSize(object instance, object Value)
+        private void set_289_BillboardTextModel3D_FixedSize(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.BillboardTextModel3D)instance;
             that.FixedSize = (global::System.Boolean)Value;
         }
-        private object get_284_BillboardTextModel3D_SamplerDescription(object instance)
+        private object get_290_BillboardTextModel3D_SamplerDescription(object instance)
         {
             var that = (global::HelixToolkit.UWP.BillboardTextModel3D)instance;
             return that.SamplerDescription;
         }
-        private void set_284_BillboardTextModel3D_SamplerDescription(object instance, object Value)
+        private void set_290_BillboardTextModel3D_SamplerDescription(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.BillboardTextModel3D)instance;
             that.SamplerDescription = (global::SharpDX.Direct3D11.SamplerStateDescription)Value;
         }
-        private object get_285_ItemsModel3D_ItemsSource(object instance)
+        private object get_291_ItemsModel3D_ItemsSource(object instance)
         {
             var that = (global::HelixToolkit.UWP.ItemsModel3D)instance;
             return that.ItemsSource;
         }
-        private void set_285_ItemsModel3D_ItemsSource(object instance, object Value)
+        private void set_291_ItemsModel3D_ItemsSource(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ItemsModel3D)instance;
             that.ItemsSource = (global::System.Collections.IEnumerable)Value;
         }
-        private object get_286_ItemsModel3D_OctreeManager(object instance)
+        private object get_292_ItemsModel3D_OctreeManager(object instance)
         {
             var that = (global::HelixToolkit.UWP.ItemsModel3D)instance;
             return that.OctreeManager;
         }
-        private void set_286_ItemsModel3D_OctreeManager(object instance, object Value)
+        private void set_292_ItemsModel3D_OctreeManager(object instance, object Value)
         {
             var that = (global::HelixToolkit.UWP.ItemsModel3D)instance;
             that.OctreeManager = (global::HelixToolkit.UWP.IOctreeManagerWrapper)Value;
         }
-        private object get_287_ItemsModel3D_Children(object instance)
+        private object get_293_ItemsModel3D_Children(object instance)
         {
             var that = (global::HelixToolkit.UWP.ItemsModel3D)instance;
             return that.Children;
@@ -4860,238 +4927,238 @@ namespace App1.App1_XamlTypeInfo
                 xamlMember.Getter = get_89_Viewport3DX_ShowFrameRate;
                 xamlMember.Setter = set_89_Viewport3DX_ShowFrameRate;
                 break;
-            case "HelixToolkit.UWP.Viewport3DX.CameraMode":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CameraMode", "HelixToolkit.UWP.CameraMode");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_90_Viewport3DX_CameraMode;
-                xamlMember.Setter = set_90_Viewport3DX_CameraMode;
-                break;
-            case "HelixToolkit.UWP.Viewport3DX.CameraRotationMode":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CameraRotationMode", "HelixToolkit.UWP.CameraRotationMode");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_91_Viewport3DX_CameraRotationMode;
-                xamlMember.Setter = set_91_Viewport3DX_CameraRotationMode;
-                break;
-            case "HelixToolkit.UWP.Viewport3DX.IsPanEnabled":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "IsPanEnabled", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_92_Viewport3DX_IsPanEnabled;
-                xamlMember.Setter = set_92_Viewport3DX_IsPanEnabled;
-                break;
             case "HelixToolkit.UWP.Viewport3DX.RenderHost":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "RenderHost", "HelixToolkit.UWP.IRenderHost");
-                xamlMember.Getter = get_93_Viewport3DX_RenderHost;
+                xamlMember.Getter = get_90_Viewport3DX_RenderHost;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.UWP.Viewport3DX.CameraCore":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CameraCore", "HelixToolkit.UWP.Cameras.CameraCore");
-                xamlMember.Getter = get_94_Viewport3DX_CameraCore;
+                xamlMember.Getter = get_91_Viewport3DX_CameraCore;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.UWP.Viewport3DX.Renderables":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Renderables", "System.Collections.Generic.IEnumerable`1<HelixToolkit.UWP.Model.Scene.SceneNode>");
-                xamlMember.Getter = get_95_Viewport3DX_Renderables;
+                xamlMember.Getter = get_92_Viewport3DX_Renderables;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.UWP.Viewport3DX.D2DRenderables":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "D2DRenderables", "System.Collections.Generic.IEnumerable`1<HelixToolkit.UWP.Model.Scene2D.SceneNode2D>");
-                xamlMember.Getter = get_96_Viewport3DX_D2DRenderables;
+                xamlMember.Getter = get_93_Viewport3DX_D2DRenderables;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.UWP.Viewport3DX.RenderContext":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "RenderContext", "HelixToolkit.UWP.RenderContext");
-                xamlMember.Getter = get_97_Viewport3DX_RenderContext;
+                xamlMember.Getter = get_94_Viewport3DX_RenderContext;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.UWP.Viewport3DX.RenderTechnique":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "RenderTechnique", "HelixToolkit.UWP.IRenderTechnique");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_98_Viewport3DX_RenderTechnique;
-                xamlMember.Setter = set_98_Viewport3DX_RenderTechnique;
+                xamlMember.Getter = get_95_Viewport3DX_RenderTechnique;
+                xamlMember.Setter = set_95_Viewport3DX_RenderTechnique;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.EffectsManager":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "EffectsManager", "HelixToolkit.UWP.IEffectsManager");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_99_Viewport3DX_EffectsManager;
-                xamlMember.Setter = set_99_Viewport3DX_EffectsManager;
+                xamlMember.Getter = get_96_Viewport3DX_EffectsManager;
+                xamlMember.Setter = set_96_Viewport3DX_EffectsManager;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.DefaultCamera":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "DefaultCamera", "HelixToolkit.UWP.ProjectionCamera");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_100_Viewport3DX_DefaultCamera;
-                xamlMember.Setter = set_100_Viewport3DX_DefaultCamera;
+                xamlMember.Getter = get_97_Viewport3DX_DefaultCamera;
+                xamlMember.Setter = set_97_Viewport3DX_DefaultCamera;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.MessageText":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "MessageText", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_101_Viewport3DX_MessageText;
-                xamlMember.Setter = set_101_Viewport3DX_MessageText;
+                xamlMember.Getter = get_98_Viewport3DX_MessageText;
+                xamlMember.Setter = set_98_Viewport3DX_MessageText;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.CoordinateSystemHorizontalPosition":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CoordinateSystemHorizontalPosition", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_102_Viewport3DX_CoordinateSystemHorizontalPosition;
-                xamlMember.Setter = set_102_Viewport3DX_CoordinateSystemHorizontalPosition;
+                xamlMember.Getter = get_99_Viewport3DX_CoordinateSystemHorizontalPosition;
+                xamlMember.Setter = set_99_Viewport3DX_CoordinateSystemHorizontalPosition;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.CoordinateSystemLabelForeground":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CoordinateSystemLabelForeground", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_103_Viewport3DX_CoordinateSystemLabelForeground;
-                xamlMember.Setter = set_103_Viewport3DX_CoordinateSystemLabelForeground;
+                xamlMember.Getter = get_100_Viewport3DX_CoordinateSystemLabelForeground;
+                xamlMember.Setter = set_100_Viewport3DX_CoordinateSystemLabelForeground;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.CoordinateSystemLabelX":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CoordinateSystemLabelX", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_104_Viewport3DX_CoordinateSystemLabelX;
-                xamlMember.Setter = set_104_Viewport3DX_CoordinateSystemLabelX;
+                xamlMember.Getter = get_101_Viewport3DX_CoordinateSystemLabelX;
+                xamlMember.Setter = set_101_Viewport3DX_CoordinateSystemLabelX;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.CoordinateSystemLabelY":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CoordinateSystemLabelY", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_105_Viewport3DX_CoordinateSystemLabelY;
-                xamlMember.Setter = set_105_Viewport3DX_CoordinateSystemLabelY;
+                xamlMember.Getter = get_102_Viewport3DX_CoordinateSystemLabelY;
+                xamlMember.Setter = set_102_Viewport3DX_CoordinateSystemLabelY;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.CoordinateSystemLabelZ":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CoordinateSystemLabelZ", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_106_Viewport3DX_CoordinateSystemLabelZ;
-                xamlMember.Setter = set_106_Viewport3DX_CoordinateSystemLabelZ;
+                xamlMember.Getter = get_103_Viewport3DX_CoordinateSystemLabelZ;
+                xamlMember.Setter = set_103_Viewport3DX_CoordinateSystemLabelZ;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.CoordinateSystemVerticalPosition":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CoordinateSystemVerticalPosition", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_107_Viewport3DX_CoordinateSystemVerticalPosition;
-                xamlMember.Setter = set_107_Viewport3DX_CoordinateSystemVerticalPosition;
+                xamlMember.Getter = get_104_Viewport3DX_CoordinateSystemVerticalPosition;
+                xamlMember.Setter = set_104_Viewport3DX_CoordinateSystemVerticalPosition;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.CoordinateSystemSize":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CoordinateSystemSize", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_108_Viewport3DX_CoordinateSystemSize;
-                xamlMember.Setter = set_108_Viewport3DX_CoordinateSystemSize;
+                xamlMember.Getter = get_105_Viewport3DX_CoordinateSystemSize;
+                xamlMember.Setter = set_105_Viewport3DX_CoordinateSystemSize;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.ShowViewCube":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ShowViewCube", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_109_Viewport3DX_ShowViewCube;
-                xamlMember.Setter = set_109_Viewport3DX_ShowViewCube;
+                xamlMember.Getter = get_106_Viewport3DX_ShowViewCube;
+                xamlMember.Setter = set_106_Viewport3DX_ShowViewCube;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.ViewCubeTexture":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ViewCubeTexture", "System.IO.Stream");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_110_Viewport3DX_ViewCubeTexture;
-                xamlMember.Setter = set_110_Viewport3DX_ViewCubeTexture;
+                xamlMember.Getter = get_107_Viewport3DX_ViewCubeTexture;
+                xamlMember.Setter = set_107_Viewport3DX_ViewCubeTexture;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.ViewCubeHorizontalPosition":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ViewCubeHorizontalPosition", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_111_Viewport3DX_ViewCubeHorizontalPosition;
-                xamlMember.Setter = set_111_Viewport3DX_ViewCubeHorizontalPosition;
+                xamlMember.Getter = get_108_Viewport3DX_ViewCubeHorizontalPosition;
+                xamlMember.Setter = set_108_Viewport3DX_ViewCubeHorizontalPosition;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.IsViewCubeEdgeClicksEnabled":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "IsViewCubeEdgeClicksEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_112_Viewport3DX_IsViewCubeEdgeClicksEnabled;
-                xamlMember.Setter = set_112_Viewport3DX_IsViewCubeEdgeClicksEnabled;
+                xamlMember.Getter = get_109_Viewport3DX_IsViewCubeEdgeClicksEnabled;
+                xamlMember.Setter = set_109_Viewport3DX_IsViewCubeEdgeClicksEnabled;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.ViewCubeVerticalPosition":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ViewCubeVerticalPosition", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_113_Viewport3DX_ViewCubeVerticalPosition;
-                xamlMember.Setter = set_113_Viewport3DX_ViewCubeVerticalPosition;
+                xamlMember.Getter = get_110_Viewport3DX_ViewCubeVerticalPosition;
+                xamlMember.Setter = set_110_Viewport3DX_ViewCubeVerticalPosition;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.ViewCubeSize":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ViewCubeSize", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_114_Viewport3DX_ViewCubeSize;
-                xamlMember.Setter = set_114_Viewport3DX_ViewCubeSize;
+                xamlMember.Getter = get_111_Viewport3DX_ViewCubeSize;
+                xamlMember.Setter = set_111_Viewport3DX_ViewCubeSize;
+                break;
+            case "HelixToolkit.UWP.Viewport3DX.CameraMode":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CameraMode", "HelixToolkit.UWP.CameraMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_112_Viewport3DX_CameraMode;
+                xamlMember.Setter = set_112_Viewport3DX_CameraMode;
+                break;
+            case "HelixToolkit.UWP.Viewport3DX.CameraRotationMode":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "CameraRotationMode", "HelixToolkit.UWP.CameraRotationMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_113_Viewport3DX_CameraRotationMode;
+                xamlMember.Setter = set_113_Viewport3DX_CameraRotationMode;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.LeftRightRotationSensitivity":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "LeftRightRotationSensitivity", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_115_Viewport3DX_LeftRightRotationSensitivity;
-                xamlMember.Setter = set_115_Viewport3DX_LeftRightRotationSensitivity;
+                xamlMember.Getter = get_114_Viewport3DX_LeftRightRotationSensitivity;
+                xamlMember.Setter = set_114_Viewport3DX_LeftRightRotationSensitivity;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.LeftRightPanSensitivity":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "LeftRightPanSensitivity", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_116_Viewport3DX_LeftRightPanSensitivity;
-                xamlMember.Setter = set_116_Viewport3DX_LeftRightPanSensitivity;
+                xamlMember.Getter = get_115_Viewport3DX_LeftRightPanSensitivity;
+                xamlMember.Setter = set_115_Viewport3DX_LeftRightPanSensitivity;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.RotationSensitivity":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "RotationSensitivity", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_117_Viewport3DX_RotationSensitivity;
-                xamlMember.Setter = set_117_Viewport3DX_RotationSensitivity;
+                xamlMember.Getter = get_116_Viewport3DX_RotationSensitivity;
+                xamlMember.Setter = set_116_Viewport3DX_RotationSensitivity;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.UpDownPanSensitivity":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "UpDownPanSensitivity", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_118_Viewport3DX_UpDownPanSensitivity;
-                xamlMember.Setter = set_118_Viewport3DX_UpDownPanSensitivity;
+                xamlMember.Getter = get_117_Viewport3DX_UpDownPanSensitivity;
+                xamlMember.Setter = set_117_Viewport3DX_UpDownPanSensitivity;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.UpDownRotationSensitivity":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "UpDownRotationSensitivity", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_119_Viewport3DX_UpDownRotationSensitivity;
-                xamlMember.Setter = set_119_Viewport3DX_UpDownRotationSensitivity;
+                xamlMember.Getter = get_118_Viewport3DX_UpDownRotationSensitivity;
+                xamlMember.Setter = set_118_Viewport3DX_UpDownRotationSensitivity;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.ZoomSensitivity":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ZoomSensitivity", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_120_Viewport3DX_ZoomSensitivity;
-                xamlMember.Setter = set_120_Viewport3DX_ZoomSensitivity;
+                xamlMember.Getter = get_119_Viewport3DX_ZoomSensitivity;
+                xamlMember.Setter = set_119_Viewport3DX_ZoomSensitivity;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.SpinReleaseTime":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "SpinReleaseTime", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_121_Viewport3DX_SpinReleaseTime;
-                xamlMember.Setter = set_121_Viewport3DX_SpinReleaseTime;
+                xamlMember.Getter = get_120_Viewport3DX_SpinReleaseTime;
+                xamlMember.Setter = set_120_Viewport3DX_SpinReleaseTime;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.FixedRotationPoint":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "FixedRotationPoint", "SharpDX.Vector3");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_122_Viewport3DX_FixedRotationPoint;
-                xamlMember.Setter = set_122_Viewport3DX_FixedRotationPoint;
+                xamlMember.Getter = get_121_Viewport3DX_FixedRotationPoint;
+                xamlMember.Setter = set_121_Viewport3DX_FixedRotationPoint;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.FixedRotationPointEnabled":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "FixedRotationPointEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_123_Viewport3DX_FixedRotationPointEnabled;
-                xamlMember.Setter = set_123_Viewport3DX_FixedRotationPointEnabled;
+                xamlMember.Getter = get_122_Viewport3DX_FixedRotationPointEnabled;
+                xamlMember.Setter = set_122_Viewport3DX_FixedRotationPointEnabled;
+                break;
+            case "HelixToolkit.UWP.Viewport3DX.IsPanEnabled":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "IsPanEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_123_Viewport3DX_IsPanEnabled;
+                xamlMember.Setter = set_123_Viewport3DX_IsPanEnabled;
                 break;
             case "HelixToolkit.UWP.Viewport3DX.IsInertiaEnabled":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Viewport3DX");
@@ -5351,200 +5418,198 @@ namespace App1.App1_XamlTypeInfo
                 xamlMember.Getter = get_160_Viewport3DX_EnableRenderOrder;
                 xamlMember.Setter = set_160_Viewport3DX_EnableRenderOrder;
                 break;
-            case "HelixToolkit.UWP.DirectionalLight3D.Direction":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.DirectionalLight3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Direction", "SharpDX.Vector3");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_161_DirectionalLight3D_Direction;
-                xamlMember.Setter = set_161_DirectionalLight3D_Direction;
-                break;
-            case "HelixToolkit.UWP.Light3D.Color":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Light3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Color", "Windows.UI.Color");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_162_Light3D_Color;
-                xamlMember.Setter = set_162_Light3D_Color;
-                break;
-            case "HelixToolkit.UWP.Light3D.LightType":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Light3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "LightType", "HelixToolkit.UWP.LightType");
-                xamlMember.Getter = get_163_Light3D_LightType;
+            case "JoystickUserControl.Joystick.XValue":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "XValue", "Double");
+                xamlMember.Getter = get_161_Joystick_XValue;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.PlaneColor":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "PlaneColor", "Windows.UI.Color");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_164_AxisPlaneGridModel3D_PlaneColor;
-                xamlMember.Setter = set_164_AxisPlaneGridModel3D_PlaneColor;
+            case "JoystickUserControl.Joystick.YValue":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "YValue", "Double");
+                xamlMember.Getter = get_162_Joystick_YValue;
+                xamlMember.SetIsReadOnly();
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.UpAxis":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "UpAxis", "HelixToolkit.UWP.Axis");
+            case "JoystickUserControl.Joystick.OuterDiameter":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "OuterDiameter", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_165_AxisPlaneGridModel3D_UpAxis;
-                xamlMember.Setter = set_165_AxisPlaneGridModel3D_UpAxis;
+                xamlMember.Getter = get_163_Joystick_OuterDiameter;
+                xamlMember.Setter = set_163_Joystick_OuterDiameter;
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.Offset":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Offset", "Double");
+            case "JoystickUserControl.Joystick.InnerDiameter":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "InnerDiameter", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_166_AxisPlaneGridModel3D_Offset;
-                xamlMember.Setter = set_166_AxisPlaneGridModel3D_Offset;
+                xamlMember.Getter = get_164_Joystick_InnerDiameter;
+                xamlMember.Setter = set_164_Joystick_InnerDiameter;
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.AutoSpacing":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "AutoSpacing", "Boolean");
+            case "JoystickUserControl.Joystick.InnerFill":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "InnerFill", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_167_AxisPlaneGridModel3D_AutoSpacing;
-                xamlMember.Setter = set_167_AxisPlaneGridModel3D_AutoSpacing;
+                xamlMember.Getter = get_165_Joystick_InnerFill;
+                xamlMember.Setter = set_165_Joystick_InnerFill;
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.AutoSpacingRate":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "AutoSpacingRate", "Double");
+            case "JoystickUserControl.Joystick.InnerStroke":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "InnerStroke", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_168_AxisPlaneGridModel3D_AutoSpacingRate;
-                xamlMember.Setter = set_168_AxisPlaneGridModel3D_AutoSpacingRate;
+                xamlMember.Getter = get_166_Joystick_InnerStroke;
+                xamlMember.Setter = set_166_Joystick_InnerStroke;
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.GridSpacing":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "GridSpacing", "Double");
+            case "JoystickUserControl.Joystick.InnerStrokeThickness":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "InnerStrokeThickness", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_169_AxisPlaneGridModel3D_GridSpacing;
-                xamlMember.Setter = set_169_AxisPlaneGridModel3D_GridSpacing;
+                xamlMember.Getter = get_167_Joystick_InnerStrokeThickness;
+                xamlMember.Setter = set_167_Joystick_InnerStrokeThickness;
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.GridThickness":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "GridThickness", "Double");
+            case "JoystickUserControl.Joystick.InnerStrokeDashOffset":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "InnerStrokeDashOffset", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_170_AxisPlaneGridModel3D_GridThickness;
-                xamlMember.Setter = set_170_AxisPlaneGridModel3D_GridThickness;
+                xamlMember.Getter = get_168_Joystick_InnerStrokeDashOffset;
+                xamlMember.Setter = set_168_Joystick_InnerStrokeDashOffset;
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.FadingFactor":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "FadingFactor", "Double");
+            case "JoystickUserControl.Joystick.InnerStrokeDashArray":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "InnerStrokeDashArray", "Windows.UI.Xaml.Media.DoubleCollection");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_171_AxisPlaneGridModel3D_FadingFactor;
-                xamlMember.Setter = set_171_AxisPlaneGridModel3D_FadingFactor;
+                xamlMember.Getter = get_169_Joystick_InnerStrokeDashArray;
+                xamlMember.Setter = set_169_Joystick_InnerStrokeDashArray;
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.GridColor":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "GridColor", "Windows.UI.Color");
+            case "JoystickUserControl.Joystick.InnerStrokeDashCap":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "InnerStrokeDashCap", "Windows.UI.Xaml.Media.PenLineCap");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_172_AxisPlaneGridModel3D_GridColor;
-                xamlMember.Setter = set_172_AxisPlaneGridModel3D_GridColor;
+                xamlMember.Getter = get_170_Joystick_InnerStrokeDashCap;
+                xamlMember.Setter = set_170_Joystick_InnerStrokeDashCap;
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.RenderShadowMap":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "RenderShadowMap", "Boolean");
+            case "JoystickUserControl.Joystick.OuterFill":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "OuterFill", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_173_AxisPlaneGridModel3D_RenderShadowMap;
-                xamlMember.Setter = set_173_AxisPlaneGridModel3D_RenderShadowMap;
+                xamlMember.Getter = get_171_Joystick_OuterFill;
+                xamlMember.Setter = set_171_Joystick_OuterFill;
                 break;
-            case "HelixToolkit.UWP.AxisPlaneGridModel3D.GridPattern":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.AxisPlaneGridModel3D");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "GridPattern", "HelixToolkit.UWP.GridPattern");
+            case "JoystickUserControl.Joystick.OuterStroke":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "OuterStroke", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_174_AxisPlaneGridModel3D_GridPattern;
-                xamlMember.Setter = set_174_AxisPlaneGridModel3D_GridPattern;
+                xamlMember.Getter = get_172_Joystick_OuterStroke;
+                xamlMember.Setter = set_172_Joystick_OuterStroke;
                 break;
-            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.EffectName":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "EffectName", "String");
+            case "JoystickUserControl.Joystick.OuterStrokeThickness":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "OuterStrokeThickness", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_175_PostEffectMeshOutlineBlur_EffectName;
-                xamlMember.Setter = set_175_PostEffectMeshOutlineBlur_EffectName;
+                xamlMember.Getter = get_173_Joystick_OuterStrokeThickness;
+                xamlMember.Setter = set_173_Joystick_OuterStrokeThickness;
                 break;
-            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.NumberOfBlurPass":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "NumberOfBlurPass", "Int32");
+            case "JoystickUserControl.Joystick.OuterStrokeDashArray":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "OuterStrokeDashArray", "Windows.UI.Xaml.Media.DoubleCollection");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_176_PostEffectMeshOutlineBlur_NumberOfBlurPass;
-                xamlMember.Setter = set_176_PostEffectMeshOutlineBlur_NumberOfBlurPass;
+                xamlMember.Getter = get_174_Joystick_OuterStrokeDashArray;
+                xamlMember.Setter = set_174_Joystick_OuterStrokeDashArray;
                 break;
-            case "HelixToolkit.UWP.PostEffectMeshBorderHighlight.DrawMode":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshBorderHighlight");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "DrawMode", "HelixToolkit.UWP.OutlineMode");
+            case "JoystickUserControl.Joystick.OuterStrokeDashOffset":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "OuterStrokeDashOffset", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_177_PostEffectMeshBorderHighlight_DrawMode;
-                xamlMember.Setter = set_177_PostEffectMeshBorderHighlight_DrawMode;
+                xamlMember.Getter = get_175_Joystick_OuterStrokeDashOffset;
+                xamlMember.Setter = set_175_Joystick_OuterStrokeDashOffset;
                 break;
-            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.Color":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Color", "Windows.UI.Color");
+            case "JoystickUserControl.Joystick.OuterStrokeDashCap":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "OuterStrokeDashCap", "Windows.UI.Xaml.Media.PenLineCap");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_178_PostEffectMeshOutlineBlur_Color;
-                xamlMember.Setter = set_178_PostEffectMeshOutlineBlur_Color;
+                xamlMember.Getter = get_176_Joystick_OuterStrokeDashCap;
+                xamlMember.Setter = set_176_Joystick_OuterStrokeDashCap;
                 break;
-            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.ScaleX":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ScaleX", "Double");
+            case "JoystickUserControl.Joystick.Theme":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("JoystickUserControl.Joystick");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Theme", "JoystickUserControl.Joystick.JoystickTheme");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_179_PostEffectMeshOutlineBlur_ScaleX;
-                xamlMember.Setter = set_179_PostEffectMeshOutlineBlur_ScaleX;
-                break;
-            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.ScaleY":
-                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
-                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ScaleY", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_180_PostEffectMeshOutlineBlur_ScaleY;
-                xamlMember.Setter = set_180_PostEffectMeshOutlineBlur_ScaleY;
+                xamlMember.Getter = get_177_Joystick_Theme;
+                xamlMember.Setter = set_177_Joystick_Theme;
                 break;
             case "HelixToolkit.UWP.ShadowMap3D.Distance":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ShadowMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Distance", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_181_ShadowMap3D_Distance;
-                xamlMember.Setter = set_181_ShadowMap3D_Distance;
+                xamlMember.Getter = get_178_ShadowMap3D_Distance;
+                xamlMember.Setter = set_178_ShadowMap3D_Distance;
                 break;
             case "HelixToolkit.UWP.ShadowMap3D.OrthoWidth":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ShadowMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "OrthoWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_182_ShadowMap3D_OrthoWidth;
-                xamlMember.Setter = set_182_ShadowMap3D_OrthoWidth;
+                xamlMember.Getter = get_179_ShadowMap3D_OrthoWidth;
+                xamlMember.Setter = set_179_ShadowMap3D_OrthoWidth;
                 break;
             case "HelixToolkit.UWP.ShadowMap3D.Resolution":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ShadowMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Resolution", "Windows.Foundation.Size");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_183_ShadowMap3D_Resolution;
-                xamlMember.Setter = set_183_ShadowMap3D_Resolution;
+                xamlMember.Getter = get_180_ShadowMap3D_Resolution;
+                xamlMember.Setter = set_180_ShadowMap3D_Resolution;
                 break;
             case "HelixToolkit.UWP.ShadowMap3D.Bias":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ShadowMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Bias", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_184_ShadowMap3D_Bias;
-                xamlMember.Setter = set_184_ShadowMap3D_Bias;
+                xamlMember.Getter = get_181_ShadowMap3D_Bias;
+                xamlMember.Setter = set_181_ShadowMap3D_Bias;
                 break;
             case "HelixToolkit.UWP.ShadowMap3D.Intensity":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ShadowMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Intensity", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_185_ShadowMap3D_Intensity;
-                xamlMember.Setter = set_185_ShadowMap3D_Intensity;
+                xamlMember.Getter = get_182_ShadowMap3D_Intensity;
+                xamlMember.Setter = set_182_ShadowMap3D_Intensity;
                 break;
             case "HelixToolkit.UWP.ShadowMap3D.NearFieldDistance":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ShadowMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "NearFieldDistance", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_186_ShadowMap3D_NearFieldDistance;
-                xamlMember.Setter = set_186_ShadowMap3D_NearFieldDistance;
+                xamlMember.Getter = get_183_ShadowMap3D_NearFieldDistance;
+                xamlMember.Setter = set_183_ShadowMap3D_NearFieldDistance;
                 break;
             case "HelixToolkit.UWP.ShadowMap3D.FarFieldDistance":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ShadowMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "FarFieldDistance", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_187_ShadowMap3D_FarFieldDistance;
-                xamlMember.Setter = set_187_ShadowMap3D_FarFieldDistance;
+                xamlMember.Getter = get_184_ShadowMap3D_FarFieldDistance;
+                xamlMember.Setter = set_184_ShadowMap3D_FarFieldDistance;
                 break;
             case "HelixToolkit.UWP.ShadowMap3D.LightCamera":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ShadowMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "LightCamera", "HelixToolkit.UWP.IProjectionCameraModel");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_188_ShadowMap3D_LightCamera;
-                xamlMember.Setter = set_188_ShadowMap3D_LightCamera;
+                xamlMember.Getter = get_185_ShadowMap3D_LightCamera;
+                xamlMember.Setter = set_185_ShadowMap3D_LightCamera;
+                break;
+            case "HelixToolkit.UWP.DirectionalLight3D.Direction":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.DirectionalLight3D");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Direction", "SharpDX.Vector3");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_186_DirectionalLight3D_Direction;
+                xamlMember.Setter = set_186_DirectionalLight3D_Direction;
+                break;
+            case "HelixToolkit.UWP.Light3D.Color":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Light3D");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Color", "Windows.UI.Color");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_187_Light3D_Color;
+                xamlMember.Setter = set_187_Light3D_Color;
+                break;
+            case "HelixToolkit.UWP.Light3D.LightType":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.Light3D");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "LightType", "HelixToolkit.UWP.LightType");
+                xamlMember.Getter = get_188_Light3D_LightType;
+                xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.UWP.EnvironmentMap3D.Texture":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.EnvironmentMap3D");
@@ -6038,181 +6103,223 @@ namespace App1.App1_XamlTypeInfo
                 xamlMember.Getter = get_261_LineGeometryModel3D_HitTestThickness;
                 xamlMember.Setter = set_261_LineGeometryModel3D_HitTestThickness;
                 break;
+            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.EffectName":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "EffectName", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_262_PostEffectMeshOutlineBlur_EffectName;
+                xamlMember.Setter = set_262_PostEffectMeshOutlineBlur_EffectName;
+                break;
+            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.NumberOfBlurPass":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "NumberOfBlurPass", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_263_PostEffectMeshOutlineBlur_NumberOfBlurPass;
+                xamlMember.Setter = set_263_PostEffectMeshOutlineBlur_NumberOfBlurPass;
+                break;
+            case "HelixToolkit.UWP.PostEffectMeshBorderHighlight.DrawMode":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshBorderHighlight");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "DrawMode", "HelixToolkit.UWP.OutlineMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_264_PostEffectMeshBorderHighlight_DrawMode;
+                xamlMember.Setter = set_264_PostEffectMeshBorderHighlight_DrawMode;
+                break;
+            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.Color":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Color", "Windows.UI.Color");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_265_PostEffectMeshOutlineBlur_Color;
+                xamlMember.Setter = set_265_PostEffectMeshOutlineBlur_Color;
+                break;
+            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.ScaleX":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ScaleX", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_266_PostEffectMeshOutlineBlur_ScaleX;
+                xamlMember.Setter = set_266_PostEffectMeshOutlineBlur_ScaleX;
+                break;
+            case "HelixToolkit.UWP.PostEffectMeshOutlineBlur.ScaleY":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PostEffectMeshOutlineBlur");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ScaleY", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_267_PostEffectMeshOutlineBlur_ScaleY;
+                xamlMember.Setter = set_267_PostEffectMeshOutlineBlur_ScaleY;
+                break;
             case "HelixToolkit.UWP.PointGeometryModel3D.Color":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PointGeometryModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Color", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_262_PointGeometryModel3D_Color;
-                xamlMember.Setter = set_262_PointGeometryModel3D_Color;
+                xamlMember.Getter = get_268_PointGeometryModel3D_Color;
+                xamlMember.Setter = set_268_PointGeometryModel3D_Color;
                 break;
             case "HelixToolkit.UWP.PointGeometryModel3D.Size":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PointGeometryModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Size", "Windows.Foundation.Size");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_263_PointGeometryModel3D_Size;
-                xamlMember.Setter = set_263_PointGeometryModel3D_Size;
+                xamlMember.Getter = get_269_PointGeometryModel3D_Size;
+                xamlMember.Setter = set_269_PointGeometryModel3D_Size;
                 break;
             case "HelixToolkit.UWP.PointGeometryModel3D.Figure":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PointGeometryModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Figure", "HelixToolkit.UWP.PointFigure");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_264_PointGeometryModel3D_Figure;
-                xamlMember.Setter = set_264_PointGeometryModel3D_Figure;
+                xamlMember.Getter = get_270_PointGeometryModel3D_Figure;
+                xamlMember.Setter = set_270_PointGeometryModel3D_Figure;
                 break;
             case "HelixToolkit.UWP.PointGeometryModel3D.FigureRatio":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PointGeometryModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "FigureRatio", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_265_PointGeometryModel3D_FigureRatio;
-                xamlMember.Setter = set_265_PointGeometryModel3D_FigureRatio;
+                xamlMember.Getter = get_271_PointGeometryModel3D_FigureRatio;
+                xamlMember.Setter = set_271_PointGeometryModel3D_FigureRatio;
                 break;
             case "HelixToolkit.UWP.PointGeometryModel3D.HitTestThickness":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.PointGeometryModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "HitTestThickness", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_266_PointGeometryModel3D_HitTestThickness;
-                xamlMember.Setter = set_266_PointGeometryModel3D_HitTestThickness;
+                xamlMember.Getter = get_272_PointGeometryModel3D_HitTestThickness;
+                xamlMember.Setter = set_272_PointGeometryModel3D_HitTestThickness;
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.Octree":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Octree", "HelixToolkit.UWP.IOctreeBasic");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_267_OctreeManagerBaseWrapper_Octree;
-                xamlMember.Setter = set_267_OctreeManagerBaseWrapper_Octree;
+                xamlMember.Getter = get_273_OctreeManagerBaseWrapper_Octree;
+                xamlMember.Setter = set_273_OctreeManagerBaseWrapper_Octree;
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.EnableOctreeOutput":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "EnableOctreeOutput", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_268_OctreeManagerBaseWrapper_EnableOctreeOutput;
-                xamlMember.Setter = set_268_OctreeManagerBaseWrapper_EnableOctreeOutput;
+                xamlMember.Getter = get_274_OctreeManagerBaseWrapper_EnableOctreeOutput;
+                xamlMember.Setter = set_274_OctreeManagerBaseWrapper_EnableOctreeOutput;
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.MinSize":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "MinSize", "Single");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_269_OctreeManagerBaseWrapper_MinSize;
-                xamlMember.Setter = set_269_OctreeManagerBaseWrapper_MinSize;
+                xamlMember.Getter = get_275_OctreeManagerBaseWrapper_MinSize;
+                xamlMember.Setter = set_275_OctreeManagerBaseWrapper_MinSize;
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.AutoDeleteIfEmpty":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "AutoDeleteIfEmpty", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_270_OctreeManagerBaseWrapper_AutoDeleteIfEmpty;
-                xamlMember.Setter = set_270_OctreeManagerBaseWrapper_AutoDeleteIfEmpty;
+                xamlMember.Getter = get_276_OctreeManagerBaseWrapper_AutoDeleteIfEmpty;
+                xamlMember.Setter = set_276_OctreeManagerBaseWrapper_AutoDeleteIfEmpty;
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.Cubify":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Cubify", "Boolean");
-                xamlMember.Getter = get_271_OctreeManagerBaseWrapper_Cubify;
-                xamlMember.Setter = set_271_OctreeManagerBaseWrapper_Cubify;
+                xamlMember.Getter = get_277_OctreeManagerBaseWrapper_Cubify;
+                xamlMember.Setter = set_277_OctreeManagerBaseWrapper_Cubify;
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.RecordHitPathBoundingBoxes":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "RecordHitPathBoundingBoxes", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_272_OctreeManagerBaseWrapper_RecordHitPathBoundingBoxes;
-                xamlMember.Setter = set_272_OctreeManagerBaseWrapper_RecordHitPathBoundingBoxes;
+                xamlMember.Getter = get_278_OctreeManagerBaseWrapper_RecordHitPathBoundingBoxes;
+                xamlMember.Setter = set_278_OctreeManagerBaseWrapper_RecordHitPathBoundingBoxes;
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.MinObjectSizeToSplit":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "MinObjectSizeToSplit", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_273_OctreeManagerBaseWrapper_MinObjectSizeToSplit;
-                xamlMember.Setter = set_273_OctreeManagerBaseWrapper_MinObjectSizeToSplit;
+                xamlMember.Getter = get_279_OctreeManagerBaseWrapper_MinObjectSizeToSplit;
+                xamlMember.Setter = set_279_OctreeManagerBaseWrapper_MinObjectSizeToSplit;
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.Manager":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Manager", "HelixToolkit.UWP.IOctreeManager");
-                xamlMember.Getter = get_274_OctreeManagerBaseWrapper_Manager;
+                xamlMember.Getter = get_280_OctreeManagerBaseWrapper_Manager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.Enabled":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Enabled", "Boolean");
-                xamlMember.Getter = get_275_OctreeManagerBaseWrapper_Enabled;
-                xamlMember.Setter = set_275_OctreeManagerBaseWrapper_Enabled;
+                xamlMember.Getter = get_281_OctreeManagerBaseWrapper_Enabled;
+                xamlMember.Setter = set_281_OctreeManagerBaseWrapper_Enabled;
                 break;
             case "HelixToolkit.UWP.OctreeManagerBaseWrapper.Parameter":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.OctreeManagerBaseWrapper");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Parameter", "HelixToolkit.UWP.OctreeBuildParameter");
-                xamlMember.Getter = get_276_OctreeManagerBaseWrapper_Parameter;
-                xamlMember.Setter = set_276_OctreeManagerBaseWrapper_Parameter;
+                xamlMember.Getter = get_282_OctreeManagerBaseWrapper_Parameter;
+                xamlMember.Setter = set_282_OctreeManagerBaseWrapper_Parameter;
                 break;
             case "HelixToolkit.UWP.DynamicReflectionMap3D.EnableReflector":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.DynamicReflectionMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "EnableReflector", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_277_DynamicReflectionMap3D_EnableReflector;
-                xamlMember.Setter = set_277_DynamicReflectionMap3D_EnableReflector;
+                xamlMember.Getter = get_283_DynamicReflectionMap3D_EnableReflector;
+                xamlMember.Setter = set_283_DynamicReflectionMap3D_EnableReflector;
                 break;
             case "HelixToolkit.UWP.DynamicReflectionMap3D.Size":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.DynamicReflectionMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Size", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_278_DynamicReflectionMap3D_Size;
-                xamlMember.Setter = set_278_DynamicReflectionMap3D_Size;
+                xamlMember.Getter = get_284_DynamicReflectionMap3D_Size;
+                xamlMember.Setter = set_284_DynamicReflectionMap3D_Size;
                 break;
             case "HelixToolkit.UWP.DynamicReflectionMap3D.FarField":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.DynamicReflectionMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "FarField", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_279_DynamicReflectionMap3D_FarField;
-                xamlMember.Setter = set_279_DynamicReflectionMap3D_FarField;
+                xamlMember.Getter = get_285_DynamicReflectionMap3D_FarField;
+                xamlMember.Setter = set_285_DynamicReflectionMap3D_FarField;
                 break;
             case "HelixToolkit.UWP.DynamicReflectionMap3D.NearField":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.DynamicReflectionMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "NearField", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_280_DynamicReflectionMap3D_NearField;
-                xamlMember.Setter = set_280_DynamicReflectionMap3D_NearField;
+                xamlMember.Getter = get_286_DynamicReflectionMap3D_NearField;
+                xamlMember.Setter = set_286_DynamicReflectionMap3D_NearField;
                 break;
             case "HelixToolkit.UWP.DynamicReflectionMap3D.IsLeftHanded":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.DynamicReflectionMap3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "IsLeftHanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_281_DynamicReflectionMap3D_IsLeftHanded;
-                xamlMember.Setter = set_281_DynamicReflectionMap3D_IsLeftHanded;
+                xamlMember.Getter = get_287_DynamicReflectionMap3D_IsLeftHanded;
+                xamlMember.Setter = set_287_DynamicReflectionMap3D_IsLeftHanded;
                 break;
             case "HelixToolkit.UWP.BillboardTextModel3D.IsTransparent":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.BillboardTextModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "IsTransparent", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_282_BillboardTextModel3D_IsTransparent;
-                xamlMember.Setter = set_282_BillboardTextModel3D_IsTransparent;
+                xamlMember.Getter = get_288_BillboardTextModel3D_IsTransparent;
+                xamlMember.Setter = set_288_BillboardTextModel3D_IsTransparent;
                 break;
             case "HelixToolkit.UWP.BillboardTextModel3D.FixedSize":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.BillboardTextModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "FixedSize", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_283_BillboardTextModel3D_FixedSize;
-                xamlMember.Setter = set_283_BillboardTextModel3D_FixedSize;
+                xamlMember.Getter = get_289_BillboardTextModel3D_FixedSize;
+                xamlMember.Setter = set_289_BillboardTextModel3D_FixedSize;
                 break;
             case "HelixToolkit.UWP.BillboardTextModel3D.SamplerDescription":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.BillboardTextModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "SamplerDescription", "SharpDX.Direct3D11.SamplerStateDescription");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_284_BillboardTextModel3D_SamplerDescription;
-                xamlMember.Setter = set_284_BillboardTextModel3D_SamplerDescription;
+                xamlMember.Getter = get_290_BillboardTextModel3D_SamplerDescription;
+                xamlMember.Setter = set_290_BillboardTextModel3D_SamplerDescription;
                 break;
             case "HelixToolkit.UWP.ItemsModel3D.ItemsSource":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ItemsModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ItemsSource", "System.Collections.IEnumerable");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_285_ItemsModel3D_ItemsSource;
-                xamlMember.Setter = set_285_ItemsModel3D_ItemsSource;
+                xamlMember.Getter = get_291_ItemsModel3D_ItemsSource;
+                xamlMember.Setter = set_291_ItemsModel3D_ItemsSource;
                 break;
             case "HelixToolkit.UWP.ItemsModel3D.OctreeManager":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ItemsModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "OctreeManager", "HelixToolkit.UWP.IOctreeManagerWrapper");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_286_ItemsModel3D_OctreeManager;
-                xamlMember.Setter = set_286_ItemsModel3D_OctreeManager;
+                xamlMember.Getter = get_292_ItemsModel3D_OctreeManager;
+                xamlMember.Setter = set_292_ItemsModel3D_OctreeManager;
                 break;
             case "HelixToolkit.UWP.ItemsModel3D.Children":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.UWP.ItemsModel3D");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Children", "HelixToolkit.UWP.ObservableElement3DCollection");
-                xamlMember.Getter = get_287_ItemsModel3D_Children;
+                xamlMember.Getter = get_293_ItemsModel3D_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             }

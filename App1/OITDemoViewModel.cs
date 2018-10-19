@@ -76,8 +76,10 @@ namespace App1
         public OITDemoViewModel()
         {
             var packageFolder = Path.Combine(Windows.ApplicationModel.Package.Current.InstalledLocation.Path, "solarsail.3ds");
+            var packageFolder2 = Path.Combine(Windows.ApplicationModel.Package.Current.InstalledLocation.Path, "airboat.obj");
             BuildGrid();
             Task.Run(() => { Load3ds(packageFolder); });
+            Task.Run(() => { LoadObj(packageFolder2); });
         }
         private void BuildGrid()
         {

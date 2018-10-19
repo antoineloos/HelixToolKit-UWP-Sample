@@ -56,6 +56,15 @@
           "lib/uap10.0/HelixToolkit.UWP.dll": {}
         }
       },
+      "JoystickUserControl/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -2639,6 +2648,15 @@
         },
         "runtime": {
           "lib/uap10.0/HelixToolkit.UWP.dll": {}
+        }
+      },
+      "JoystickUserControl/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -5261,6 +5279,15 @@
         },
         "runtime": {
           "lib/uap10.0/HelixToolkit.UWP.dll": {}
+        }
+      },
+      "JoystickUserControl/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -7921,6 +7948,15 @@
           "lib/uap10.0/HelixToolkit.UWP.dll": {}
         }
       },
+      "JoystickUserControl/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -10559,6 +10595,15 @@
           "lib/uap10.0/HelixToolkit.UWP.dll": {}
         }
       },
+      "JoystickUserControl/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -13188,6 +13233,15 @@
         },
         "runtime": {
           "lib/uap10.0/HelixToolkit.UWP.dll": {}
+        }
+      },
+      "JoystickUserControl/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -15857,6 +15911,15 @@
           "lib/uap10.0/HelixToolkit.UWP.dll": {}
         }
       },
+      "JoystickUserControl/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -18486,6 +18549,15 @@
         },
         "runtime": {
           "lib/uap10.0/HelixToolkit.UWP.dll": {}
+        }
+      },
+      "JoystickUserControl/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/JoystickUserControl.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -21254,6 +21326,21 @@
         "lib/uap10.0/HelixToolkit.UWP/Resources/vsScreenDupCursor.cso",
         "lib/uap10.0/HelixToolkit.UWP/Resources/vsSkybox.cso",
         "lib/uap10.0/HelixToolkit.UWP/Themes/Generic.xbf"
+      ]
+    },
+    "JoystickUserControl/1.1.3": {
+      "sha512": "mXMufQn4UwvRueppfBcSdGZu8xQAGithououdQp3a2XNd9oWpVUDuCMbi7cI3w45iZQDqCI/Gr1XKRPelO1KCQ==",
+      "type": "package",
+      "path": "joystickusercontrol/1.1.3",
+      "files": [
+        "joystickusercontrol.1.1.3.nupkg.sha512",
+        "joystickusercontrol.nuspec",
+        "lib/netcore50/JoystickUserControl.dll",
+        "lib/uap10.0/JoystickUserControl.dll",
+        "lib/uap10.0/JoystickUserControl.pdb",
+        "lib/uap10.0/JoystickUserControl.pri",
+        "lib/uap10.0/JoystickUserControl/Joystick.xbf",
+        "lib/uap10.0/JoystickUserControl/JoystickUserControl.xr.xml"
       ]
     },
     "Microsoft.CSharp/4.0.1": {
@@ -31420,6 +31507,7 @@
     "UAP,Version=v10.0.15063": [
       "HelixToolkit >= 2.4.0",
       "HelixToolkit.UWP >= 2.4.0",
+      "JoystickUserControl >= 1.1.3",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.9",
       "MvvmLight >= 5.4.1.1",
       "SharpDX >= 4.2.0"
@@ -31469,6 +31557,10 @@
           "HelixToolkit.UWP": {
             "target": "Package",
             "version": "[2.4.0, )"
+          },
+          "JoystickUserControl": {
+            "target": "Package",
+            "version": "[1.1.3, )"
           },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",

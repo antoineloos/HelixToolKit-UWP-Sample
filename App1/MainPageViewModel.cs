@@ -54,6 +54,8 @@ namespace App1
 
         public Camera Camera1 { private set; get; }
 
+        public Camera Camera2 { private set; get; }
+
         private Matrix transform = Matrix.Identity;
         public Matrix Transform
         {
@@ -115,12 +117,16 @@ namespace App1
         public ICommand UpDirXCommand { private set; get; }
         public ICommand UpDirYCommand { private set; get; }
         public ICommand UpDirZCommand { private set; get; }
+
+        public ICommand MoveCamera { private set; get; }
+
+        public ICommand RotateCamera { private set; get; }
         #endregion
 
         public MainPageViewModel()
         {
             EffectsManager = new DefaultEffectsManager(new Logger());
-
+            
             Camera = new PerspectiveCamera() { Position = new Vector3(40, 10, 100), LookDirection = new Vector3(0, -10, -100), UpDirection = UpDirection, FarPlaneDistance = 500, NearPlaneDistance = 0.1 };
             Camera1 = new OrthographicCamera() { Position = new Vector3(60, 10, 100), LookDirection = new Vector3(0, -10, -100), UpDirection = upDirection, Width = 30, FarPlaneDistance = 2000, NearPlaneDistance = 20 };
             var builder = new MeshBuilder(true, true, true);
@@ -175,11 +181,24 @@ namespace App1
             FloorMaterial = PhongMaterials.Obsidian;
             FloorMaterial.ReflectiveColor = Color.Silver;
 
-            EnvironmentMap = LoadTexture("Cubemap_Grandcanyon.dds");
+            EnvironmentMap = LoadTexture("earth-cubemap.dds");
 
             UpDirXCommand = new RelayCommand(() => { UpDirection = Vector3.UnitX; }, () => { return UpDirection != Vector3.UnitX; });
             UpDirYCommand = new RelayCommand(() => { UpDirection = Vector3.UnitY; }, () => { return UpDirection != Vector3.UnitY; });
             UpDirZCommand = new RelayCommand(() => { UpDirection = Vector3.UnitZ; }, () => { return UpDirection != Vector3.UnitZ; });
+
+            MoveCamera = new RelayCommand<Vector2>((i) => 
+            {
+                var newVec = new Vector3(Camera.Position.X+i.X, Camera.Position.Y+i.Y,Camera.Position.Z);
+                Camera.Position = newVec;
+            });
+
+            RotateCamera = new RelayCommand<Vector2>((i) =>
+            {
+                var newVec = new Vector3(Camera.LookDirection.X + i.X, Camera.LookDirection.Y + i.Y, Camera.LookDirection.Z);
+                Camera.LookDirection = newVec;
+            });
+
 
             timer = new DispatcherTimer();
             timer.Tick += Timer_Tick;
@@ -220,6 +239,8 @@ namespace App1
                 }
             }
         }
+
+
 
         private void ResetCamera()
         {

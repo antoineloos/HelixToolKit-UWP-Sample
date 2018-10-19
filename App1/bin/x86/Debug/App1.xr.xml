@@ -1,16 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="OITWeightDepthSlope" />
-    <RootPropertyPathName Name="OITWeightPower" />
-    <RootPropertyPathName Name="OITVM" />
-    <RootPropertyPathName Name="OITWeights" />
-    <RootPropertyPathName Name="OITWeightMode" />
     <RootPropertyPathName Name="RenderDetailOutput" />
-    <RootPropertyPathName Name="Camera1" />
-    <RootPropertyPathName Name="UpDirection" />
     <RootPropertyPathName Name="Camera" />
-    <RootPropertyPathName Name="LookDirection" />
+    <RootPropertyPathName Name="UpDirection" />
+    <RootPropertyPathName Name="OITVM" />
     <RootPropertyPathName Name="GridModel" />
     <RootPropertyPathName Name="GridTransform" />
     <RootPropertyPathName Name="Acceleration" />
@@ -64,23 +58,17 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="RowDefinitions" />
-      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Children" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
-      <RootMethod Name="GetColumn" />
-      <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="Children" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="CacheMode" />
     </RootType>
     <RootType FullName="HelixToolkit.UWP.ModelContainer3DX">
       <RootProperty Name="EffectsManager" />
@@ -102,9 +90,6 @@
       <RootProperty Name="ShowFrameDetails" />
       <RootProperty Name="ShowFrameRate" />
       <RootProperty Name="Items" />
-      <RootProperty Name="CameraMode" />
-      <RootProperty Name="CameraRotationMode" />
-      <RootProperty Name="IsPanEnabled" />
       <RootEvent Name="OnMouse3DDown" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -116,39 +101,23 @@
       <RootProperty Name="Text" />
       <RootProperty Name="CacheMode" />
       <RootProperty Name="IsHitTestVisible" />
-      <RootProperty Name="Inlines" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.BitmapCache" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="SelectedItem" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Slider">
-      <RootProperty Name="LargeChange" />
-      <RootProperty Name="Maximum" />
-      <RootProperty Name="Minimum" />
-      <RootProperty Name="SmallChange" />
-      <RootProperty Name="Value" />
+    <RootType FullName="JoystickUserControl.Joystick">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="OnJoystickMoved" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="ElementName" />
       <RootProperty Name="Path" />
       <RootProperty Name="Mode" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.BitmapCache" />
+    <RootType FullName="HelixToolkit.UWP.ShadowMap3D" />
     <RootType FullName="HelixToolkit.UWP.DirectionalLight3D">
       <RootProperty Name="Direction" />
       <RootProperty Name="Color" />
     </RootType>
-    <RootType FullName="HelixToolkit.UWP.AxisPlaneGridModel3D">
-      <RootProperty Name="PlaneColor" />
-      <RootProperty Name="UpAxis" />
-      <RootProperty Name="Offset" />
-    </RootType>
-    <RootType FullName="HelixToolkit.UWP.PostEffectMeshBorderHighlight">
-      <RootProperty Name="EffectName" />
-      <RootProperty Name="NumberOfBlurPass" />
-    </RootType>
-    <RootType FullName="HelixToolkit.UWP.ShadowMap3D" />
     <RootType FullName="HelixToolkit.UWP.EnvironmentMap3D">
       <RootProperty Name="Texture" />
     </RootType>
@@ -200,6 +169,10 @@
       <RootProperty Name="Color" />
       <RootProperty Name="IsThrowingShadow" />
     </RootType>
+    <RootType FullName="HelixToolkit.UWP.PostEffectMeshBorderHighlight">
+      <RootProperty Name="EffectName" />
+      <RootProperty Name="NumberOfBlurPass" />
+    </RootType>
     <RootType FullName="HelixToolkit.UWP.PointGeometryModel3D">
       <RootProperty Name="Geometry" />
       <RootProperty Name="IsThrowingShadow" />
@@ -216,6 +189,10 @@
     <RootType FullName="HelixToolkit.UWP.ItemsModel3D">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="Transform3D" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="OctreeManager" />
     </RootType>

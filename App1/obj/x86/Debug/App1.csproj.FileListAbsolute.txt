@@ -259,3 +259,9 @@ C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\solarsail.3ds
 C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\FXT_Sparks_01_Atlas_d.png
 C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\TextureCheckerboard2.jpg
 C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\Cubemap_Grandcanyon.dds
+C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\airboat.obj
+C:\Users\aloos\source\repos\App1\App1\obj\x86\Debug\App1.csprojAssemblyReference.cache
+C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\earth-cubemap.dds
+C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\JoystickUserControl.dll
+C:\Users\aloos\source\repos\App1\App1\bin\x86\Debug\JoystickUserControl.pdb
+C:\Users\aloos\source\repos\App1\App1\obj\x86\Debug\JoystickUserControl.pri.xml
